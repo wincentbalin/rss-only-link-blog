@@ -1,2 +1,6 @@
 # Ignore VS Code settings
 .vscode/
+
+# Ignore Vagrant directory
+.vagrant/
+
