@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
     #config.vm.synced_folder ".", "/var/www", :nfs => { :mount_options => ["dmode=777","fmode=666"] }
 
     # Adjust Apache root path
-    config.vm.provision "shell", inline: "sed -ie 's/\\\/public//g' /etc/apache2/sites-enabled/000-default.conf"
+    config.vm.provision "shell", inline: "sed -ie 's/\\\/public//g' /etc/apache2/sites-enabled/000-default.conf && sudo systemctl restart apache2"
 
 end
 
