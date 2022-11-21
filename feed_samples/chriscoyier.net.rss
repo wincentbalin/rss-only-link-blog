@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Chris Coyier</title>
+	<atom:link href="https://chriscoyier.net/feed/" rel="self" type="application/rss+xml" />
+	<link>https://chriscoyier.net/</link>
+	<description>Web craftsman, blogger, author, speaker.</description>
+	<lastBuildDate>Mon, 14 Nov 2022 16:05:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
+
+<image>
+	<url>https://i0.wp.com/chriscoyier.net/wp-content/uploads/2021/07/IsUISvAq_400x400.jpg?fit=32%2C32&#038;ssl=1</url>
+	<title>Chris Coyier</title>
+	<link>https://chriscoyier.net/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Lil&#8217; Thought Blasters About Mastodon</title>
+		<link>https://chriscoyier.net/2022/11/14/lil-thought-blasters-about-mastodon/</link>
+					<comments>https://chriscoyier.net/2022/11/14/lil-thought-blasters-about-mastodon/#comments</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Mon, 14 Nov 2022 15:29:51 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7733</guid>
+
+					<description><![CDATA[I&#8217;m stoked about this time around. I haven&#8217;t been as excited in the past mostly because I was turned off by how much quieter it was than Twitter (read: it didn&#8217;t fuel the addiction well enough). This time around, it&#8217;s still quieter, but I&#8217;m more ready for the quiet. And it&#8217;s not too quiet. I&#8217;d [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<ul><li>I&#8217;m stoked about this time around. I haven&#8217;t been as excited in the past mostly because I was turned off by how much quieter it was than Twitter (read: it didn&#8217;t fuel the addiction well enough). This time around, it&#8217;s still quieter, but I&#8217;m more ready for the quiet. And it&#8217;s not <em>too</em> quiet. I&#8217;d say pretty much all my favorite people are there! </li><li>I think if Twitter were to literally shut down, Mastodon is a perfectly nice replacement. I love Discord. I love blogging. But I like the little-text-burst-with-simple-social-features too, quite a bit. Ughck look at me I&#8217;m even blogging like that right now.</li><li>I&#8217;m on the server <a href="https://front-end.social/web/@chriscoyier">front-end.social</a>. I&#8217;m following their internal discussions about how to think about managing invites, approvals, and overall size. It&#8217;s all very thoughtful. I know for sure, it&#8217;s not trying to be the one true front-end instance and wants to encourage everyone to arrange their own. It doesn&#8217;t matter that much on Mastodon anyway. The spirit of it is to, ya know, federate. I literally have no advice on which instance you should join, but I&#8217;m sure people with more experience than me can help.</li><li>I&#8217;m a little jealous of the people who went one step further and self-host their own private instance. They get their own URLs! Nice! Although then you kinda miss out on the &#8220;local&#8221; timeline of a shared-interest instance, not to mention the personal technical debt.</li><li>What is the best way to link to yourself on Mastodon, in a &#8220;come follow me&#8221; sense? Just like this? <a href="https://front-end.social/web/@chriscoyier">https://front-end.social/web/@chriscoyier</a></li><li>I really dislike the &#8220;Toot&#8221; verbiage. I generally like whimsical stuff, but a fart joke at the very heart and soul of an app is maybe too far.</li><li>It&#8217;s nice I can <a href="https://shkspr.mobi/blog/2022/11/better-sharing-of-wordpress-posts-to-mastodon/">kick WordPress posts over there automatically</a> as I can with Jetpack + Twitter.</li><li>I really love how the openness of it means there are all sorts of clients to try. I&#8217;ve been using <a href="https://pinafore.social/">Pinafore</a> on my desktops. It&#8217;s nice and fast. I&#8217;ve been enjoying adding my own custom CSS to it via the Arc browser. There are also like 10 choices on iOS. I&#8217;ve only tried Mastodon and Toot! so far, and they are both OK but looking forward to trying more. It&#8217;s like bouncing around RSS readers! Fun!</li></ul>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?ssl=1"><img data-attachment-id="7735" data-permalink="https://chriscoyier.net/2022/11/14/lil-thought-blasters-about-mastodon/screenshot-2022-11-14-at-7-25-31-am/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?fit=3250%2C2164&amp;ssl=1" data-orig-size="3250,2164" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-14-at-7.25.31-AM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?fit=300%2C200&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?fit=1024%2C682&amp;ssl=1" width="1024" height="682" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?resize=1024%2C682&#038;ssl=1" alt="Screenshot of Arc browser with Pinafore open on the right, and a CSS editor on the left styling it." class="wp-image-7735" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?resize=1024%2C682&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?resize=768%2C511&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?resize=1536%2C1023&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?resize=2048%2C1364&amp;ssl=1 2048w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-14-at-7.25.31-AM.png?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/14/lil-thought-blasters-about-mastodon/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>It&#8217;s Official &#x1f4a8;</title>
+		<link>https://chriscoyier.net/2022/11/13/its-official-%f0%9f%92%a8/</link>
+					<comments>https://chriscoyier.net/2022/11/13/its-official-%f0%9f%92%a8/#respond</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Sun, 13 Nov 2022 22:41:27 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7728</guid>
+
+					<description><![CDATA[Pleased that FART (Flash of inAccurate coloR Theme, lol) has become: &#8230; officially a term of art in computer science. Because it&#8217;s a part of Chrome Platform Status as a feature of Client Hints. Indeed, prefers-color-scheme is a perfect thing for Client Hints. &#8230; it is a best practice to not load CSS for the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Pleased that <a href="https://css-tricks.com/flash-of-inaccurate-color-theme-fart/">FART</a> (<strong>F</strong>lash of in<strong>A</strong>ccurate colo<strong>R</strong> <strong>T</strong>heme, lol) has <a href="https://twitter.com/cramforce/status/1591844654991159297">become</a>:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>&#8230; officially a term of art in computer science.</p></blockquote>
+
+
+
+<p>Because it&#8217;s a part of <a href="https://chromestatus.com/feature/5642300464037888">Chrome Platform Status</a> as a feature of Client Hints. Indeed, <code>prefers-color-scheme</code> is a perfect thing for Client Hints. </p>
+
+
+
+<blockquote class="wp-block-quote"><p>&#8230; it is a best practice to not load CSS for the particular non-matching color scheme in the critical rendering path, and instead to initially only load the currently relevant CSS.</p></blockquote>
+
+
+
+<p>No FART if the server only returns CSS matching your preferred theme (right away, anyway). Client Hints is the mechanism that tells the server that preference so it can respond accordingly.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/13/its-official-%f0%9f%92%a8/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Speaking of folk interfaces</title>
+		<link>https://chriscoyier.net/2022/11/12/speaking-of-folk-interfaces/</link>
+					<comments>https://chriscoyier.net/2022/11/12/speaking-of-folk-interfaces/#respond</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Sun, 13 Nov 2022 03:52:24 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/2022/11/12/speaking-of-folk-interfaces/</guid>
+
+					<description><![CDATA[I was at a charity dinner with an auction tonight. Clearly they couldn’t figure out how to put instructions into the system anywhere anybody could find. So they made “items” in the CMS and made them $1. I’m pleased to have won the “how to register” item for $3.]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img data-attachment-id="7719" data-permalink="https://chriscoyier.net/2022/11/12/speaking-of-folk-interfaces/img_0764/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?fit=1290%2C2796&amp;ssl=1" data-orig-size="1290,2796" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="img_0764" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?fit=138%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?fit=472%2C1024&amp;ssl=1" loading="lazy" width="472" height="1024" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?resize=472%2C1024&#038;ssl=1" class="wp-image-7719" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?resize=472%2C1024&amp;ssl=1 472w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?resize=138%2C300&amp;ssl=1 138w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?resize=768%2C1665&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?resize=709%2C1536&amp;ssl=1 709w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?resize=945%2C2048&amp;ssl=1 945w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/img_0764.png?w=1290&amp;ssl=1 1290w" sizes="(max-width: 472px) 100vw, 472px" data-recalc-dims="1" /></figure>
+
+
+
+<p>I was at a charity dinner with an auction tonight. </p>
+
+
+
+<p>Clearly they couldn’t figure out how to put instructions into the system anywhere anybody could find. So they made “items” in the CMS and made them $1. </p>
+
+
+
+<p>I’m pleased to have won the “how to register” item for $3.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/12/speaking-of-folk-interfaces/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Nightmare Before Christmas Before The Nightmare Before Christmas</title>
+		<link>https://chriscoyier.net/2022/11/12/the-nightmare-before-christmas-before-the-nightmare-before-christmas/</link>
+					<comments>https://chriscoyier.net/2022/11/12/the-nightmare-before-christmas-before-the-nightmare-before-christmas/#comments</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Sat, 12 Nov 2022 19:50:51 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7715</guid>
+
+					<description><![CDATA[The movie goes: Some man who has had some success running other things has a twinkle in his eye to run another thing. He takes it over on a whim with some seriously questionable tactics. Smart people that he should really listen to tell him it’s a bad idea but he completely ignores it and [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The movie goes:</p>
+
+
+
+<ol><li>Some man who has had some success running other things has a twinkle in his eye to run another thing.</li><li>He takes it over on a whim with some seriously questionable tactics.</li><li>Smart people that he should really listen to tell him it’s a bad idea but he completely ignores it and alienates them.</li><li>He does a terrible job running the new thing and hurts people in the process.</li><li>In the end he’s like “oh wait that was a dumb idea”, credits nobody else for being right, and is welcomed warmly back because he’s a powerful man.</li></ol>
+
+
+
+<p>Sounds familiar I dunno.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?ssl=1"><img data-attachment-id="7716" data-permalink="https://chriscoyier.net/2022/11/12/the-nightmare-before-christmas-before-the-nightmare-before-christmas/jackmuskington/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?fit=1920%2C1080&amp;ssl=1" data-orig-size="1920,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;\u00a9Disney Enterprises, Inc. All rights reserved.&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="jackmuskington" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?fit=300%2C169&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?fit=1024%2C576&amp;ssl=1" loading="lazy" width="1024" height="576" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?resize=1024%2C576&#038;ssl=1" alt="Jack Skellington from The Nightmare Before Christmas handing a young boy a present. Elon Musk's face is overlaid onto Jack's face." class="wp-image-7716" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/jackmuskington.jpg?w=1920&amp;ssl=1 1920w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/12/the-nightmare-before-christmas-before-the-nightmare-before-christmas/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Personal Coding Challenge: Data Validation, Correction, and Default Handling</title>
+		<link>https://chriscoyier.net/2022/11/12/personal-coding-challenge-data-validation-correction-and-default-handling/</link>
+					<comments>https://chriscoyier.net/2022/11/12/personal-coding-challenge-data-validation-correction-and-default-handling/#comments</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Sat, 12 Nov 2022 17:45:10 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7707</guid>
+
+					<description><![CDATA[Say you have some JSON data like this (I&#8217;ll be using Go on purpose here): The challenge here is to build a machine that does four things: Validate that the JSON is valid syntax. Validate that the JSON is valid against a schema. If there is a problem with one part of the data, first [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Say you have some JSON data like this (I&#8217;ll be using Go on purpose here): </p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-1" data-shcb-language-name="JSON / JSON with Comments" data-shcb-language-slug="json"><div><code class="hljs language-json">jsonString := `{ 
+    <span class="hljs-attr">"number"</span>: <span class="hljs-string">"1600"</span>, 
+    <span class="hljs-attr">"street_name"</span>: <span class="hljs-string">"Pennsylvania"</span>, 
+    <span class="hljs-attr">"street_type"</span>: <span class="hljs-string">"Avenue"</span>
+}`</code></div><small class="shcb-language" id="shcb-language-1"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">JSON / JSON with Comments</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">json</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>The challenge here is to build a machine that does four things:</p>
+
+
+
+<ol><li><strong>Validate</strong> that the JSON is valid <strong>syntax</strong>.</li><li><strong>Validate</strong> that the JSON is valid against a <strong>schema</strong>.</li><li>If there is a problem with one part of the data, first <strong>attempt to fix it</strong> (see how the value for <code>"number"</code> is <code>"1600"</code>, that&#8217;s a basic mistake, try to <strong>coerce</strong> it into an <code>int</code> of <code>1600</code>).</li><li>If that part of the bad data cannot be coerced, or if it&#8217;s invalid even after it is, fall back to a <strong>default</strong> value.</li></ol>
+
+
+
+<h2>1) Validation is fairly easy.</h2>
+
+
+
+<p>Go standard lib can do it.</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-2" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go shcb-code-table"><span class='shcb-loc'><span>jsonString := <span class="hljs-string">`{ </span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    "number": "1600", </span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    "street_name": "Pennsylvania", </span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    "street_type": "Avenue"</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">}`</span>
+</span></span><span class='shcb-loc'><span>
+</span></span><mark class='shcb-loc'><span>isValid := json.Valid([]<span class="hljs-keyword">byte</span>(jsonString))
+</span></mark><span class='shcb-loc'><span><span class="hljs-keyword">if</span> isValid {
+</span></span><span class='shcb-loc'><span>  fmt.Println(<span class="hljs-string">"JSON data is valid in most basic sense."</span>)
+</span></span><span class='shcb-loc'><span>} <span class="hljs-keyword">else</span> {
+</span></span><span class='shcb-loc'><span>  fmt.Println(<span class="hljs-string">"ERROR! String is not valid JSON."</span>)
+</span></span><span class='shcb-loc'><span>}
+</span></span></code></div><small class="shcb-language" id="shcb-language-2"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<h2>2) Validation against schema can be done with a lib.</h2>
+
+
+
+<p>I don&#8217;t know if this is the <em>only</em> option, but <strong><a href="https://github.com/xeipuuv/gojsonschema">gojsonschema</a></strong> works. </p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-3" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go shcb-code-table"><span class='shcb-loc'><span>jsonString := <span class="hljs-string">`{ </span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    "number": "1600", </span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    "street_name": "Pennsylvania", </span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    "street_type": "Avenue"</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">}`</span>
+</span></span><span class='shcb-loc'><span>
+</span></span><span class='shcb-loc'><span>schema := gojsonschema.NewStringLoader(<span class="hljs-string">`{</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    "type": "object",</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    "properties": {</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">      "number": { "type": "number" },</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">      "street_name": { "type": "string" },</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">      "street_type": { "enum": ["Street", "Avenue", "Boulevard"] }</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">    }</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">  }`</span>)
+</span></span><span class='shcb-loc'><span>
+</span></span><span class='shcb-loc'><span>json := gojsonschema.NewStringLoader(jsonString)
+</span></span><span class='shcb-loc'><span>
+</span></span><mark class='shcb-loc'><span>result, err := gojsonschema.Validate(schema, json)
+</span></mark><span class='shcb-loc'><span><span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
+</span></span><span class='shcb-loc'><span>  <span class="hljs-built_in">panic</span>(err.Error())
+</span></span><span class='shcb-loc'><span>}
+</span></span><span class='shcb-loc'><span>
+</span></span><span class='shcb-loc'><span><span class="hljs-keyword">if</span> result.Valid() {
+</span></span><span class='shcb-loc'><span>  fmt.Printf(<span class="hljs-string">"The document is valid\n"</span>)
+</span></span><span class='shcb-loc'><span>} <span class="hljs-keyword">else</span> {
+</span></span><span class='shcb-loc'><span>  fmt.Printf(<span class="hljs-string">"The document is not valid. see errors :\n"</span>)
+</span></span><span class='shcb-loc'><span>  <span class="hljs-keyword">for</span> _, desc := <span class="hljs-keyword">range</span> result.Errors() {
+</span></span><span class='shcb-loc'><span>    fmt.Printf(<span class="hljs-string">"- %s\n"</span>, desc)
+</span></span><span class='shcb-loc'><span>  }
+</span></span><span class='shcb-loc'><span>}
+</span></span></code></div><small class="shcb-language" id="shcb-language-3"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<h2>3) Fixing theoretically easy to fix data</h2>
+
+
+
+<p>Here&#8217;s that original JSON again:</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-4" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go">jsonString := <span class="hljs-string">`{ 
+    "number": "1600", 
+    "street_name": "Pennsylvania", 
+    "street_type": "Avenue"
+}`</span></code></div><small class="shcb-language" id="shcb-language-4"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>And note in the schema, we&#8217;re expecting a number: <code>"number": { "type": "number" }</code>. If we ran the validation in Step 2 above, we&#8217;d get:</p>
+
+
+
+<pre class="wp-block-preformatted">&gt; make run
+go build -o main .
+./main
+The document is not valid. see errors :
+- number: Invalid type. Expected: number, given: string</pre>
+
+
+
+<p>So that&#8217;s true for schema validation, but it would also be true if we tried to <code>json.Unmarshal</code> the data into a struct with strict types (which we definitely do). So in addition the schema, we have a <code>type</code> which is also kind of a schema.</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-5" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go"><span class="hljs-keyword">type</span> address <span class="hljs-keyword">struct</span> {
+  Number     <span class="hljs-keyword">int</span>    <span class="hljs-string">`json:"number"`</span>
+  StreetName <span class="hljs-keyword">string</span> <span class="hljs-string">`json:"street_name"`</span>
+  StreetType <span class="hljs-keyword">string</span> <span class="hljs-string">`json:"street_type"`</span>
+}</code></div><small class="shcb-language" id="shcb-language-5"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>If we tried to parse the JSON now, we&#8217;d get a similar error to the schema checking:</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-6" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go"><span class="hljs-keyword">var</span> add address
+err := json.Unmarshal([]<span class="hljs-keyword">byte</span>(jsonString), &amp;add)
+<span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
+  fmt.Println(err)
+}</code></div><small class="shcb-language" id="shcb-language-6"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<pre class="wp-block-preformatted">&gt; make run
+go build -o main .
+./main
+json: cannot unmarshal string into Go struct field address.number of type int</pre>
+
+
+
+<p>The hope is that there is a way to run some kind of callback function to try to coerce the problematic bit of data into something that <em>is</em> valid. So <code>"1600"</code> is so obviously just incorrectly a string, the callback would force it into an <code>int</code> and all would be well. </p>
+
+
+
+<p class="ticss-b6a7e91b has-white-color has-vivid-red-background-color has-text-color has-background has-medium-font-size">This is where I&#8217;m kinda stuck, and will update this post when it&#8217;s figured out. </p>
+
+
+
+<ul><li>Can <a href="https://github.com/valyala/fastjson">fastjson</a> help? It&#8217;s README says something about error handling but I don&#8217;t see how.</li><li>Can <a href="https://github.com/mitchellh/mapstructure">mapstructure</a> help? It says <em>&#8220;This library is most useful when decoding values from some data stream (JSON, Gob, etc.) where you don&#8217;t quite know the structure of the underlying data until you read a part of it.&#8221;</em> which seems like a good lead.</li><li>Can <a href="https://github.com/go-playground/validator">validator</a> help? </li></ul>
+
+
+
+<h3><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-vivid-red-color">Update:</mark><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-luminous-vivid-orange-color"> </mark>You can provide Unmarshaling instructions for custom types</h3>
+
+
+
+<p><a href="https://docs.bitnami.com/tutorials/dealing-with-json-with-non-homogeneous-types-in-go/">This article was very helpful.</a></p>
+
+
+
+<p>Rather than an <code>int</code> like you want it, call it something else:</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-7" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go"><span class="hljs-keyword">type</span> FlexInt <span class="hljs-keyword">int</span>
+
+<span class="hljs-keyword">type</span> FlexAddress <span class="hljs-keyword">struct</span> {
+	Number     FlexInt <span class="hljs-string">`json:"number"`</span>
+	StreetName <span class="hljs-keyword">string</span>  <span class="hljs-string">`json:"street_name"`</span>
+	StreetType <span class="hljs-keyword">string</span>  <span class="hljs-string">`json:"street_type"`</span>
+}</code></div><small class="shcb-language" id="shcb-language-7"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>Now as Marko Mikulicic says:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>All you have to do is implement the <em>json.Unmarshaler</em> interface.</p></blockquote>
+
+
+
+<p>So:</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-8" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go"><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-params">(fi *FlexInt)</span> <span class="hljs-title">UnmarshalJSON</span><span class="hljs-params">(b []<span class="hljs-keyword">byte</span>)</span> <span class="hljs-title">error</span></span> {
+	<span class="hljs-keyword">if</span> b[<span class="hljs-number">0</span>] != <span class="hljs-string">'"'</span> {
+		<span class="hljs-keyword">return</span> json.Unmarshal(b, (*<span class="hljs-keyword">int</span>)(fi))
+	}
+	<span class="hljs-keyword">var</span> s <span class="hljs-keyword">string</span>
+	<span class="hljs-keyword">if</span> err := json.Unmarshal(b, &amp;s); err != <span class="hljs-literal">nil</span> {
+		<span class="hljs-keyword">return</span> err
+	}
+	i, err := strconv.Atoi(s)
+	<span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
+		<span class="hljs-keyword">return</span> err
+	}
+	*fi = FlexInt(i)
+	<span class="hljs-keyword">return</span> <span class="hljs-literal">nil</span>
+}</code></div><small class="shcb-language" id="shcb-language-8"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>This is awfully clever I think. </p>
+
+
+
+<ol><li>It checks the first character of the value of the <code>FlexInt</code> and if it&#8217;s <em>not </em>a double-quote mark (like is required for a JSON string), then assume its an <code>int</code> and Unmarshal it that way. </li><li>Then try to Unmarshal it as a string and return that if it works</li><li>Then try to coerce it into an <code>int</code> and if that works, great</li><li>Errors returned if nothing seems to work (could always try accounting for more situations)</li></ol>
+
+
+
+<p>So this handles trying to fix decently-easy-to-fix JSON type errors, and also gives an opportunity to just return some kind of default value if every attempt at fixing it fails.</p>
+
+
+
+<h2>4) Default / Fallback Values</h2>
+
+
+
+<p>One issue here is <em>where to put the fallback values.</em> If we know we&#8217;re exclusively dealing with JSON data, it seems like the JSON schema would be the place. That can look like: </p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-9" data-shcb-language-name="JSON / JSON with Comments" data-shcb-language-slug="json"><div><code class="hljs language-json shcb-code-table"><span class='shcb-loc'><span>{
+</span></span><span class='shcb-loc'><span>    <span class="hljs-attr">"type"</span>: <span class="hljs-string">"object"</span>,
+</span></span><span class='shcb-loc'><span>    <span class="hljs-attr">"properties"</span>: {
+</span></span><mark class='shcb-loc'><span>      <span class="hljs-attr">"number"</span>: { <span class="hljs-attr">"type"</span>: <span class="hljs-string">"number"</span>, <span class="hljs-attr">"default"</span>: <span class="hljs-number">1000</span> },
+</span></mark><span class='shcb-loc'><span>      <span class="hljs-attr">"street_name"</span>: { <span class="hljs-attr">"type"</span>: <span class="hljs-string">"string"</span> },
+</span></span><span class='shcb-loc'><span>      <span class="hljs-attr">"street_type"</span>: { <span class="hljs-attr">"enum"</span>: [<span class="hljs-string">"Street"</span>, <span class="hljs-string">"Avenue"</span>, <span class="hljs-string">"Boulevard"</span>] }
+</span></span><span class='shcb-loc'><span>    }
+</span></span><span class='shcb-loc'><span>}
+</span></span></code></div><small class="shcb-language" id="shcb-language-9"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">JSON / JSON with Comments</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">json</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>But the trouble here is that by the time we&#8217;re parsing/unmarshaling the data, that&#8217;s in Go, so we&#8217;d have to somehow come back to the schema and parse <em>that</em> and pluck the data out to use. Just seems weird.</p>
+
+
+
+<p>Maybe we&#8217;ll have to do Step 3, then if we find the data to be unfixable, <em>remove</em> it, then run it back through a JSON schema situation where it <em>puts default values back into the parsed data.</em> Again something I don&#8217;t really know how to do, but seems plausible. Plus it does double duty. I would think this machine would optionally be able to put in default values. Not always, sometimes missing fields are better, but it could put in defaults on command.</p>
+
+
+
+<h2>Bonus: Not just JSON</h2>
+
+
+
+<p>I think JSON is the primary use case here, but not all data is passed around as JSON. Perhaps this machine could do the same kind of thing for data that is already in Go. Step 1 becomes irrelevant (Go code will just choke on invalid syntax), but the rest still matter. Can a <code>struct</code> have a schema with allowed values? So not just <code>int</code> but an <code>int</code> with <code>min</code> and <code>max</code>? Not just a <code>string</code> but a <code>string</code> with a valid set of ENUM values. Seems like that should be no huge problem. Can a <code>struct</code> with a value outside what the schema allows be fixed or reverted to a default value? Hopefully?</p>
+
+
+
+<p>In this case, wouldn&#8217;t it make more sense to put the default values in the <code>type</code> definition rather than a JSON schema, so like this <strong>NOT REAL </strong>code:</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-10" data-shcb-language-name="JavaScript" data-shcb-language-slug="javascript"><div><code class="hljs language-javascript shcb-code-table"><span class='shcb-loc'><span>type address struct {
+</span></span><mark class='shcb-loc'><span>  <span class="hljs-built_in">Number</span>     int    <span class="hljs-string">`json:"number",default:1000`</span>
+</span></mark><span class='shcb-loc'><span>  StreetName string <span class="hljs-string">`json:"street_name"`</span>
+</span></span><span class='shcb-loc'><span>  StreetType string <span class="hljs-string">`json:"street_type"`</span>
+</span></span><span class='shcb-loc'><span>}
+</span></span></code></div><small class="shcb-language" id="shcb-language-10"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">JavaScript</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">javascript</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>Then if you need JSON schema also, you could generate it from this <code>type</code>? I&#8217;m already out of my depth here and this is doubly so, but also seems possible. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/12/personal-coding-challenge-data-validation-correction-and-default-handling/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Difference Between Integration Testing and End-to-End Testing</title>
+		<link>https://chriscoyier.net/2022/11/11/the-difference-between-integration-testing-and-end-to-end-testing/</link>
+					<comments>https://chriscoyier.net/2022/11/11/the-difference-between-integration-testing-and-end-to-end-testing/#comments</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Fri, 11 Nov 2022 23:58:13 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7698</guid>
+
+					<description><![CDATA[I don&#8217;t think there is any doubt that this is a unit test: You have a function, and you&#8217;re testing that the function returns what you think it should return. A code base probably has lots of this as they are easy to write, useful, and not flakey. I also don&#8217;t think there is any [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I don&#8217;t think there is any doubt that <em>this</em> is a <strong>unit test</strong>:</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-11" data-shcb-language-name="JavaScript" data-shcb-language-slug="javascript"><div><code class="hljs language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sum</span>(<span class="hljs-params">a, b</span>) </span>{
+  <span class="hljs-keyword">return</span> a + b;
+}
+
+test(<span class="hljs-string">'adds 1 + 2 to equal 3'</span>, () =&gt; {
+  expect(sum(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>)).toBe(<span class="hljs-number">3</span>);
+});</code></div><small class="shcb-language" id="shcb-language-11"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">JavaScript</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">javascript</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>You have a function, and you&#8217;re testing that the function returns what you think it should return. A code base probably has lots of this as they are easy to write, useful, and not flakey.</p>
+
+
+
+<p class="ticss-96d5493e">I also don&#8217;t think there is any doubt about what an <strong>end-to-end</strong> test is. The quintessential end-to-end test is like &#8220;go to this URL, fill out this form, click the submit button, and see if the right thing happens. <a href="https://www.cypress.io/">Cypress</a> is king here. </p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-12" data-shcb-language-name="JavaScript" data-shcb-language-slug="javascript"><div><code class="hljs language-javascript">it(<span class="hljs-string">'adds todos'</span>, () =&gt; {
+  cy.visit(<span class="hljs-string">'https://todo.app.com'</span>)
+  cy.get(<span class="hljs-string">'[data-testid="new-todo"]'</span>)
+    .type(<span class="hljs-string">'write code{enter}'</span>)
+    .type(<span class="hljs-string">'write tests{enter}'</span>)
+  <span class="hljs-comment">// confirm the application is showing two items</span>
+  cy.get(<span class="hljs-string">'[data-testid="todos"]'</span>).should(<span class="hljs-string">'have.length'</span>, <span class="hljs-number">2</span>)
+})</code></div><small class="shcb-language" id="shcb-language-12"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">JavaScript</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">javascript</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>Unit and end-to-end tests are the extremes on two sides of a <strong>spectrum</strong>. On the left, unit tests, little itty bitty sanity testers. On the right, end-to-end tests, big beefy (cough; sometimes flakey) tests that prove that lots and lots of systems are working together as intended and what a user experiences is in good shape. Even though the amount of code in the test isn&#8217;t super different, what is being tested is wildly different.</p>
+
+
+
+<p><strong>I think integration tests are a dot somewhere in the middle of that spectrum. </strong></p>
+
+
+
+<p>Integration tests combine multiple systems in your app. API tests seem like a quintessential example to me. You could certainly <em>unit test </em>parts of an API, but tests that use the API <em>as you would actually interact with it</em> in your web app are the juicy onces. Meaning <em>combining</em> multiple systems. <em>Integrating</em> systems, as it were. </p>
+
+
+
+<p>Say your API is in GraphQL and your front end uses Apollo Client to interact with it. An integration test could be&#8230;</p>
+
+
+
+<ol><li>In JavaScript&#8230;</li><li>Spin up Apollo and have it connect to the same GraphQL server the current environment uses (dev, staging, prod, etc)</li><li>Write a query and/or mutation that hits the API and does something</li><li>Test what you get back</li><li>&#8230; in Jest or whatever.</li></ol>
+
+
+
+<p>Now you&#8217;re testing <em>a limited set of multiple systems</em> and <em>that&#8217;s</em> an integration test. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="has-small-font-size">Highly related: </p>
+
+
+
+<ul class="has-small-font-size"><li><a href="https://webrush.io/episodes/episode-208-cypress-with-jordan-powell">This episode of Web Rush</a></li><li><a href="https://www.jayfreestone.com/writing/integration-tests/">Jay Freestone: Defining ‘integration’ tests</a></li></ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/11/the-difference-between-integration-testing-and-end-to-end-testing/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Nobody Gets Hurt Doing Their One-Rep Maxes*</title>
+		<link>https://chriscoyier.net/2022/11/10/nobody-gets-hurt-doing-their-one-rep-maxes/</link>
+					<comments>https://chriscoyier.net/2022/11/10/nobody-gets-hurt-doing-their-one-rep-maxes/#comments</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2022 23:30:22 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7694</guid>
+
+					<description><![CDATA[Says my physical therapist. I hurt my back most recently doing back squats. 135lbs on the bar. That&#8217;s nothing for my big elephant legs. It was my third rep of what was going to be 60 reps over 15 minutes as part of an EMOM (Every Minute on the Minute) workout involving box step-ups as [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Says my physical therapist. </p>
+
+
+
+<p>I hurt my back most recently doing back squats. 135lbs on the bar. That&#8217;s nothing for my big elephant legs. It was my third rep of what was going to be 60 reps over 15 minutes as part of an EMOM (Every Minute on the Minute) workout involving box step-ups as well. </p>
+
+
+
+<p>I was hurrying to start the reps as the gym was waiting for me to start. I treated the weight too casually. I didn&#8217;t brace up. Tighten my core and glutes. Bend that bar. </p>
+
+
+
+<p>That&#8217;s what you do when you&#8217;re going for a one-rep max, you are psychologically and physically braced to do it. You go into it with the right prep. That&#8217;s safe. Loosey goosey = not safe.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="has-small-font-size">* I&#8217;m sure plenty of people have hurt themselves doing one-rep maxes. I just like the thinking here. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/10/nobody-gets-hurt-doing-their-one-rep-maxes/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Two Quick Things I learned about JSON in Go</title>
+		<link>https://chriscoyier.net/2022/11/10/two-quick-things-i-learned-about-json-in-go/</link>
+					<comments>https://chriscoyier.net/2022/11/10/two-quick-things-i-learned-about-json-in-go/#respond</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Thu, 10 Nov 2022 22:25:02 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7688</guid>
+
+					<description><![CDATA[One. You don&#8217;t have to json.Unmarshal into an empty struct. I learned with examples like this: There, post is totally defaults, meaning because favorite_count was missing in the JSON data, post.FavoriteCount defaults to 0, the Go default value for an int. But it doesn&#8217;t have to start that way! You can Unmarshal it into a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2>One.</h2>
+
+
+
+<p>You don&#8217;t have to <code>json.Unmarshal</code> into an empty struct. I learned with examples like this:</p>
+
+
+<pre class="wp-block-code ticss-6f805c47" aria-describedby="shcb-language-13" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go"><span class="hljs-keyword">type</span> Post <span class="hljs-keyword">struct</span> {
+	FavoriteCount <span class="hljs-keyword">int</span>    <span class="hljs-string">`json:"favorite_count"`</span>
+	ID            <span class="hljs-keyword">string</span> <span class="hljs-string">`json:"id"`</span>
+	FullText      <span class="hljs-keyword">string</span> <span class="hljs-string">`json:"full_text"`</span>
+}
+
+exampleJSON := []<span class="hljs-keyword">byte</span>(<span class="hljs-string">`{
+  "id": "098a9df8a90d8fad",
+  "full_text": "Blah blah blah."
+}`</span>)
+
+<span class="hljs-keyword">var</span> post Post
+
+err := json.Unmarshal(exampleJSON, &amp;post)
+<span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
+  fmt.Println(err)
+}</code></div><small class="shcb-language" id="shcb-language-13"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>There, <code>post</code> is totally defaults, meaning because <code>favorite_count</code> was missing in the JSON data, <code>post.FavoriteCount</code> defaults to 0, the Go default value for an <code>int</code>. But it doesn&#8217;t have to start that way! You can Unmarshal it into a variable of that type that isn&#8217;t all default values.</p>
+
+
+<pre class="wp-block-code"><div><code class="hljs">post := Post{
+	FavoriteCount: 5,
+}
+
+err = json.Unmarshal(exampleJSON, &amp;post)
+if err != nil {
+	fmt.Println(err)
+}</code></div></pre>
+
+
+<p>Now even though the JSON data is still missing <code>favorite_count</code>, the <code>post.FavoriteCount</code> value will be <code>5</code>. Useful!</p>
+
+
+
+<p>And surprising to me, as a language that doesn&#8217;t have much in the way of convience methods. Like there certainly is no <code>...spread</code> like JavaScript, and this feels a smidge like spreading.</p>
+
+
+
+<p><a href="https://replit.com/@ChrisCoyier/Unmarshal-into-defaults#main.go">Here&#8217;s a thing on Replit.</a></p>
+
+
+
+<p>Another thing I need to learn is how to deal better with Unmarshaling data into a struct where the JSON data could be wrong. With the default <code>json.Unmarshal</code> it just totally fails, and so far I&#8217;ve worked around it with really permissive temporary <code>type</code>s that use a bunch of <code>interface{}</code> shit and coercing it later. But I&#8217;d rather use a strict type and deal with it on the spot. I hear userland libs like <a href="https://github.com/mitchellh/mapstructure">mapstructure</a> and <a href="https://github.com/valyala/fastjson#features">fastjson</a> can maybe help here.  </p>
+
+
+
+<h2>Two.</h2>
+
+
+
+<p>Sometimes JSON is all like&#8230;</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-14" data-shcb-language-name="JSON / JSON with Comments" data-shcb-language-slug="json"><div><code class="hljs language-json">{
+   <span class="hljs-attr">"things"</span>: {[
+     <span class="hljs-attr">"thing: {
+     }
+   ]}
+}</span></code></div><small class="shcb-language" id="shcb-language-14"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">JSON / JSON with Comments</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">json</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>And sometimes JSON is all like:</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-15" data-shcb-language-name="JSON / JSON with Comments" data-shcb-language-slug="json"><div><code class="hljs language-json">[{
+  <span class="hljs-attr">"thing"</span>: {
+
+  }
+}]</code></div><small class="shcb-language" id="shcb-language-15"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">JSON / JSON with Comments</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">json</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p>I was somehow under the wrong impression that the first example was somehow better. It might be in some cases, like where you might use like <code>things_v2</code> as an opportunity to &#8220;version&#8221; the JSON, but generally, I actually think the second example is cleaner. </p>
+
+
+
+<p>The second is also easier to deal with in Go, as you don&#8217;t need an additional &#8220;parent&#8221; type to deal with &#8220;things&#8221;. You can just make the main type a <code>[]slice</code> and it knows what it&#8217;s looking for will be an array in the JSON then.</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-16" data-shcb-language-name="Go" data-shcb-language-slug="go"><div><code class="hljs language-go shcb-code-table"><span class='shcb-loc'><span><span class="hljs-keyword">type</span> testURL <span class="hljs-keyword">struct</span> {
+</span></span><span class='shcb-loc'><span>  Title <span class="hljs-keyword">string</span> <span class="hljs-string">`json:"title"`</span>
+</span></span><span class='shcb-loc'><span>  Value <span class="hljs-keyword">string</span> <span class="hljs-string">`json:"value"`</span>
+</span></span><span class='shcb-loc'><span>}
+</span></span><span class='shcb-loc'><span>
+</span></span><span class='shcb-loc'><span>exampleJSON := []<span class="hljs-keyword">byte</span>(<span class="hljs-string">`[</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">  {"title": "Homepage", "value": "https://nextjs.org/"},</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">  {"title": "GitHub", "value": "https://github.com/vercel/next.js/"},</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">  {"title": "Docs", "value": "https://nextjs.org/docs"}</span>
+</span></span><span class='shcb-loc'><span><span class="hljs-string">]`</span>)
+</span></span><span class='shcb-loc'><span>
+</span></span><mark class='shcb-loc'><span><span class="hljs-keyword">var</span> allURLs []testURL
+</span></mark><span class='shcb-loc'><span>
+</span></span><span class='shcb-loc'><span>err := json.Unmarshal(exampleJSON, &amp;allURLs)
+</span></span><span class='shcb-loc'><span><span class="hljs-keyword">if</span> err != <span class="hljs-literal">nil</span> {
+</span></span><span class='shcb-loc'><span>  fmt.Println(err)
+</span></span><span class='shcb-loc'><span>}
+</span></span></code></div><small class="shcb-language" id="shcb-language-16"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Go</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">go</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p><a href="https://replit.com/@ChrisCoyier/Unmarshal-array#main.go">Here&#8217;s a Replit thing.</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/10/two-quick-things-i-learned-about-json-in-go/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Dan&#8217;s Book: Twenty Bits I Learned About Making Websites</title>
+		<link>https://chriscoyier.net/2022/11/09/dans-book-twenty-bits-i-learned-about-making-websites/</link>
+					<comments>https://chriscoyier.net/2022/11/09/dans-book-twenty-bits-i-learned-about-making-websites/#respond</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Wed, 09 Nov 2022 23:55:11 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7683</guid>
+
+					<description><![CDATA[I got a copy of Dan&#8217;s latest book! So many endearing, funny, and relatable bits. From Chapter 4: As soon as I typed the HTML for my first hyperlink, the power of it hit me. This is the DNA of the web, the fabric that connects all of the bits and pieces all over the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I got a copy of <a href="https://simplebits.com/products/twenty-bits-websites">Dan&#8217;s latest book</a>! </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?ssl=1"><img data-attachment-id="7684" data-permalink="https://chriscoyier.net/2022/11/09/dans-book-twenty-bits-i-learned-about-making-websites/img_0521/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?fit=1920%2C2560&amp;ssl=1" data-orig-size="1920,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.78&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 14 Pro Max&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1667290288&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;6.86&quot;,&quot;iso&quot;:&quot;250&quot;,&quot;shutter_speed&quot;:&quot;0.0083333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="IMG_0521" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?fit=225%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?fit=768%2C1024&amp;ssl=1" loading="lazy" width="768" height="1024" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521.jpeg?resize=768%2C1024&#038;ssl=1" alt="" class="wp-image-7684" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/IMG_0521-scaled.jpeg?w=1920&amp;ssl=1 1920w" sizes="(max-width: 768px) 100vw, 768px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>So many endearing, funny, and relatable bits. From Chapter 4:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>As soon as I typed the HTML for my first hyperlink, the power of it hit me. This is the DNA of the web, the fabric that connects all of the bits and pieces all over the globe. It sounds so primitive now, but when this was ll new to me and I was disocvering how it all worked and how simple it was to create links, it was magic.</p></blockquote>
+
+
+
+<p>It&#8217;s still magic! URLs are one of mankind&#8217;s greatest achievements. It took a lot for them to exist, and now that they do, they have literally advanced civilization. They are the ultimate unbeatable feature. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>Couldn&#8217;t agree more with Chapter 5. Couldn&#8217;t agree more with Chapter 19. Love love Chapter 9. He&#8217;ll get ya with Chapter 8 though, them&#8217;s a doozy — real <a href="https://www.youtube.com/watch?v=xtrQUoRJ_W4">Secret of Life</a> stuff there. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/09/dans-book-twenty-bits-i-learned-about-making-websites/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Icon Set Nostolgia</title>
+		<link>https://chriscoyier.net/2022/11/09/icon-set-nostolgia/</link>
+					<comments>https://chriscoyier.net/2022/11/09/icon-set-nostolgia/#comments</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Wed, 09 Nov 2022 22:27:06 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7619</guid>
+
+					<description><![CDATA[I think Daniel Bruce&#8217;s Entypo was the first icon set designed for the web that I fawned over. Maybe it was how it had a cool name, almost like it was a startup product. And the website design around it was awesome. The 2012 design was pretty fresh, especially for that time: Then a 2014 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I think Daniel Bruce&#8217;s <a href="http://www.entypo.com/">Entypo</a> was the first icon set designed for the web that I <em>fawned</em> over.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?ssl=1"><img data-attachment-id="7620" data-permalink="https://chriscoyier.net/2022/11/09/icon-set-nostolgia/screenshot-2022-11-04-at-7-21-02-am/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?fit=2430%2C1988&amp;ssl=1" data-orig-size="2430,1988" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-04-at-7.21.02-AM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?fit=300%2C245&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?fit=1024%2C838&amp;ssl=1" loading="lazy" width="1024" height="838" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?resize=1024%2C838&#038;ssl=1" alt="Screenshot of Entypo+ homepage which is mostly just big grid of small white vector icons on dark gray." class="wp-image-7620" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?resize=1024%2C838&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?resize=300%2C245&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?resize=768%2C628&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?resize=1536%2C1257&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.21.02-AM.png?resize=2048%2C1675&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>Maybe it was how it had a <em>cool</em> name, almost like it was a startup product. And the website design around it was awesome. The 2012 design was pretty fresh, especially for that time:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?ssl=1"><img data-attachment-id="7621" data-permalink="https://chriscoyier.net/2022/11/09/icon-set-nostolgia/screenshot-2022-11-04-at-7-22-43-am/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?fit=2424%2C2720&amp;ssl=1" data-orig-size="2424,2720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-04-at-7.22.43-AM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?fit=267%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?fit=913%2C1024&amp;ssl=1" loading="lazy" width="913" height="1024" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?resize=913%2C1024&#038;ssl=1" alt="Screenshot of 2012 Entypo.com homepage. Large dark banner showcasing the shopping bag, trash, search (flashlight), and archive (file drawer) icons. The Entypo logo is slightly 3D looking casting a shadow over the header." class="wp-image-7621" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?resize=913%2C1024&amp;ssl=1 913w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?resize=267%2C300&amp;ssl=1 267w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?resize=768%2C862&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?resize=1369%2C1536&amp;ssl=1 1369w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?resize=1825%2C2048&amp;ssl=1 1825w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.22.43-AM.png?w=2000&amp;ssl=1 2000w" sizes="(max-width: 913px) 100vw, 913px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>Then a 2014 update:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?ssl=1"><img data-attachment-id="7622" data-permalink="https://chriscoyier.net/2022/11/09/icon-set-nostolgia/screenshot-2022-11-04-at-7-23-29-am/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?fit=2394%2C2494&amp;ssl=1" data-orig-size="2394,2494" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-04-at-7.23.29-AM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?fit=288%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?fit=983%2C1024&amp;ssl=1" loading="lazy" width="983" height="1024" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?resize=983%2C1024&#038;ssl=1" alt="The 2014 Entypo.com website this time with a large green header and showcasing a similar set of large icons. Two large blue buttons for Download Package and Character map. The rest of the page is small black icons on a white background." class="wp-image-7622" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?resize=983%2C1024&amp;ssl=1 983w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?resize=288%2C300&amp;ssl=1 288w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?resize=768%2C800&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?resize=1474%2C1536&amp;ssl=1 1474w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-04-at-7.23.29-AM.png?resize=1966%2C2048&amp;ssl=1 1966w" sizes="(max-width: 983px) 100vw, 983px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>Alas, they are no more. The link to download them leads to a broken Dropbox link. </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?ssl=1"><img data-attachment-id="7676" data-permalink="https://chriscoyier.net/2022/11/09/icon-set-nostolgia/screenshot-2022-11-09-at-11-57-16-am/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?fit=1250%2C920&amp;ssl=1" data-orig-size="1250,920" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-09-at-11.57.16-AM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?fit=300%2C221&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?fit=1024%2C754&amp;ssl=1" loading="lazy" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?resize=471%2C346&#038;ssl=1" alt="Screenshot of an Error (403) page on Dropbox.com, signaling the file doesn't exist." class="wp-image-7676" width="471" height="346" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?resize=1024%2C754&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?resize=300%2C221&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?resize=768%2C565&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.57.16-AM.png?w=1250&amp;ssl=1 1250w" sizes="(max-width: 471px) 100vw, 471px" data-recalc-dims="1" /></a></figure></div>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>Maybe even a smidge earlier than Entypo, Drew Wilson&#8217;s <a href="http://pictos.cc/">Pictos</a> was also <em>massively</em> cool. This was circa 2012:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?ssl=1"><img data-attachment-id="7677" data-permalink="https://chriscoyier.net/2022/11/09/icon-set-nostolgia/screenshot-2022-11-09-at-11-58-34-am/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?fit=2448%2C2390&amp;ssl=1" data-orig-size="2448,2390" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-09-at-11.58.34-AM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?fit=300%2C293&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?fit=1024%2C1000&amp;ssl=1" loading="lazy" width="1024" height="1000" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?resize=1024%2C1000&#038;ssl=1" alt="Screenshot of homepage for Pictos.css. Mostly a large grid of black icons on a grungy white background. Each row of icons has grungy dashed lines through it showing off how aligned the icon features are." class="wp-image-7677" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?resize=1024%2C1000&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?resize=300%2C293&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?resize=768%2C750&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?resize=1536%2C1500&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-11.58.34-AM.png?resize=2048%2C1999&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>Pictos modernized into a fancy set that included line, solid, and color, which to this day is pretty cool and unique for an icon set to offer:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?ssl=1"><img data-attachment-id="7679" data-permalink="https://chriscoyier.net/2022/11/09/icon-set-nostolgia/screenshot-2022-11-09-at-2-18-02-pm/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?fit=2952%2C3144&amp;ssl=1" data-orig-size="2952,3144" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-09-at-2.18.02-PM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?fit=282%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?fit=961%2C1024&amp;ssl=1" loading="lazy" width="961" height="1024" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?resize=961%2C1024&#038;ssl=1" alt="Screenshot of revamped Pictos website howing off the line, shape, and color variations of 8 of the icons from the set." class="wp-image-7679" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?resize=961%2C1024&amp;ssl=1 961w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?resize=282%2C300&amp;ssl=1 282w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?resize=768%2C818&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?resize=1442%2C1536&amp;ssl=1 1442w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?resize=1923%2C2048&amp;ssl=1 1923w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.18.02-PM.png?w=2000&amp;ssl=1 2000w" sizes="(max-width: 961px) 100vw, 961px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>But alas:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?ssl=1"><img data-attachment-id="7680" data-permalink="https://chriscoyier.net/2022/11/09/icon-set-nostolgia/screenshot-2022-11-09-at-2-19-44-pm/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?fit=1434%2C1078&amp;ssl=1" data-orig-size="1434,1078" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-09-at-2.19.44-PM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?fit=300%2C226&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?fit=1024%2C770&amp;ssl=1" loading="lazy" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?resize=626%2C470&#038;ssl=1" alt="Default Chrome &quot;This site can't be reached&quot; page." class="wp-image-7680" width="626" height="470" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?resize=1024%2C770&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?resize=300%2C226&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?resize=768%2C577&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-09-at-2.19.44-PM.png?w=1434&amp;ssl=1 1434w" sizes="(max-width: 626px) 100vw, 626px" data-recalc-dims="1" /></a></figure></div>
+
+
+<p>You cannot get it as Plasso, the payments startup that was also done by Drew, is no more. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>Bit rot, kids. Happens to the best of them. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/09/icon-set-nostolgia/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A Brief and Probably Only Partially Correct History of CSS Nesting</title>
+		<link>https://chriscoyier.net/2022/11/09/a-brief-and-probably-only-partially-correct-history-of-css-nesting/</link>
+					<comments>https://chriscoyier.net/2022/11/09/a-brief-and-probably-only-partially-correct-history-of-css-nesting/#respond</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Wed, 09 Nov 2022 15:22:59 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7643</guid>
+
+					<description><![CDATA[2006: Sass was invented. Has nesting. All subsequent CSS processors have nesting (Less: 2009; Stylus: 2010). 2011: Tab says Chrome engineers already dabbling with CSS nesting. 2011: (Lost to time?) First Editor&#8217;s Draft appears actually called &#8220;CSS hierarchies&#8221;. Lennart Schoors has a blog post mentioning it and says it was in conjunction with Shane Stephens [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<ul><li><strong>2006</strong>: <a href="https://sass-lang.com/ruby-sass">Sass was invented</a>. Has nesting. All subsequent CSS processors have nesting (Less: 2009; Stylus: 2010). </li><li> <strong>2011</strong>: <a href="https://www.xanthir.com/blog/b49w0#:~:text=of%20the%20pain!-,CSS%20Nesting,-In%20any%20large">Tab says</a> Chrome engineers already dabbling with CSS nesting. </li><li><strong>2011</strong>: (Lost to time?) First Editor&#8217;s Draft appears actually called &#8220;CSS hierarchies&#8221;. Lennart Schoors <a href="https://bricss.net/post/13583990210/native-css-nesting-with-new-hierarchies-spec">has a blog post</a> mentioning it and says it was in conjunction with Shane Stephens also at Google.</li><li><strong>2015</strong>: <a href="https://tabatkins.github.io/specs/css-nesting/">Tab makes an Editor&#8217;s Draft</a>, now called &#8220;CSS Nesting&#8221;. Probably deemed &#8220;Level 3&#8221; because, after CSS3, the thinking was that all new specs would start at 3 and evolve independently forward after that. Right? </li><li><strong>2015</strong>: <a href="https://github.com/csstools/postcss-nesting/">PostCSS plugin appears</a> to replicate said draft. Later moved <a href="https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting">here</a>.</li><li><strong>2017</strong>: Lea is like: <a href="https://github.com/w3c/csswg-drafts/issues/998">let&#8217;s go yo</a> — and CSS WG agrees to talk about it in 2018.</li><li><strong>2018</strong>: PostCSS plugin <a href="https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting">becomes part of PostCSS Preset Env</a>, a set of plugins intended to replicate future CSS, like Babel&#8217;s Preset Env. </li><li><strong>2018</strong>: <a href="https://github.com/w3c/csswg-drafts/issues/2701#issuecomment-393679548">Discussions</a> are making it clear that &#8220;unbounded lookahead&#8221; is the main &#8220;problem&#8221; with Sass-like nesting. That ain&#8217;t gonna work. </li><li><strong>2021</strong>: Spec <a href="https://www.w3.org/blog/news/archives/9236">becomes</a> a <a href="https://www.w3.org/TR/css-nesting-1/">First Public Working Draft</a>, now co-edited with Adam. </li><li><strong>2022</strong>: Spec becomes <a href="https://drafts.csswg.org/css-nesting/">an Editor&#8217;s Draft</a>. </li><li><strong>2022</strong>: Miriam and Adam <a href="https://developer.chrome.com/blog/help-css-nesting/">reach out to the public</a> and have them vote on 3 potential options for syntax. (Not really sure which won.)</li><li><strong>2022</strong>: <a href="https://github.com/w3c/csswg-drafts/issues/7834">New discussion</a> (Fantasai, Jen, Brad, Tab, Miriam) emerges about what syntax is best.</li></ul>
+
+
+
+<p>I&#8217;m really not sure where it is now! I imagine one of them will win here (soon?), then the spec gets finalized, then the browser implementations get fixed up, then we really start thinking and talking about it. Q1 2023?? Let&#8217;s go! </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/09/a-brief-and-probably-only-partially-correct-history-of-css-nesting/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Local By Flywheel has Fancy Headless WordPress Scaffolding</title>
+		<link>https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/</link>
+					<comments>https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/#comments</comments>
+		
+		<dc:creator><![CDATA[Chris Coyier]]></dc:creator>
+		<pubDate>Tue, 08 Nov 2022 22:40:00 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://chriscoyier.net/?p=7659</guid>
+
+					<description><![CDATA[Local By Flywheel makes running a local WordPress site trivially easy. I just got a marketing email from them saying that there is a plugin for Atlas now, which is their parent company WP Engine&#8217;s product for running &#8220;Headless&#8221; WordPress. Headless, meaning the front-end of the site isn&#8217;t HTML produced from PHP directly, it&#8217;s some [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><a href="https://localwp.com/">Local By Flywheel</a> makes running a local WordPress site trivially easy. I just got a marketing email from them saying that there is a plugin for <a href="https://wpengine.com/atlas/">Atlas</a> now, which is their parent company WP Engine&#8217;s product for running &#8220;Headless&#8221; WordPress. Headless, meaning the front-end of the site isn&#8217;t HTML produced from PHP directly, it&#8217;s some other kind of front-end that digests content from WordPress via API. </p>
+
+
+
+<p>I didn&#8217;t really know what supporting Atlas really means, so I just gave it a shot. First, you gotta add and activate it as a plugin:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?ssl=1"><img data-attachment-id="7665" data-permalink="https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/cleanshot-2022-11-08-at-14-04-132x/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?fit=2742%2C1876&amp;ssl=1" data-orig-size="2742,1876" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="CleanShot-2022-11-08-at-14.04.13@2x" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?fit=300%2C205&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?fit=1024%2C701&amp;ssl=1" loading="lazy" width="1024" height="701" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?resize=1024%2C701&#038;ssl=1" alt="" class="wp-image-7665" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?resize=1024%2C701&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?resize=300%2C205&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?resize=768%2C525&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?resize=1536%2C1051&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.13@2x.png?resize=2048%2C1401&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>Now you&#8217;ll have some Atlas-powered &#8220;Blueprints&#8221; available when you spin up a site:</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?ssl=1"><img data-attachment-id="7666" data-permalink="https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/cleanshot-2022-11-08-at-14-04-522x/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?fit=2798%2C2560&amp;ssl=1" data-orig-size="2798,2560" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="CleanShot-2022-11-08-at-14.04.52@2x" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?fit=300%2C274&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?fit=1024%2C937&amp;ssl=1" loading="lazy" width="1024" height="937" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?resize=1024%2C937&#038;ssl=1" alt="" class="wp-image-7666" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?resize=1024%2C937&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?resize=300%2C274&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?resize=768%2C703&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?resize=1536%2C1405&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.04.52@2x.png?resize=2048%2C1874&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>Spinning it up the first time will install some extra stuff, as to be expected. Once it is spun up, you&#8217;ll see in Local it&#8217;s not just running the PHP, MySQL, and Nginx stuff, but there is a whole section just for the Node.js front end too. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?ssl=1"><img data-attachment-id="7667" data-permalink="https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/cleanshot-2022-11-08-at-14-06-112x/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?fit=1590%2C1948&amp;ssl=1" data-orig-size="1590,1948" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="CleanShot-2022-11-08-at-14.06.11@2x" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?fit=245%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?fit=836%2C1024&amp;ssl=1" loading="lazy" width="836" height="1024" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?resize=836%2C1024&#038;ssl=1" alt="" class="wp-image-7667" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?resize=836%2C1024&amp;ssl=1 836w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?resize=245%2C300&amp;ssl=1 245w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?resize=768%2C941&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?resize=1254%2C1536&amp;ssl=1 1254w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.11@2x.png?w=1590&amp;ssl=1 1590w" sizes="(max-width: 836px) 100vw, 836px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>And you got a site! </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?ssl=1"><img data-attachment-id="7668" data-permalink="https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/cleanshot-2022-11-08-at-14-06-342x/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?fit=2948%2C3292&amp;ssl=1" data-orig-size="2948,3292" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="CleanShot-2022-11-08-at-14.06.34@2x" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?fit=269%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?fit=917%2C1024&amp;ssl=1" loading="lazy" width="917" height="1024" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?resize=917%2C1024&#038;ssl=1" alt="" class="wp-image-7668" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?resize=917%2C1024&amp;ssl=1 917w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?resize=269%2C300&amp;ssl=1 269w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?resize=768%2C858&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?resize=1375%2C1536&amp;ssl=1 1375w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?resize=1834%2C2048&amp;ssl=1 1834w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/CleanShot-2022-11-08-at-14.06.34@2x.png?w=2000&amp;ssl=1 2000w" sizes="(max-width: 917px) 100vw, 917px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>This website is VERY different from how you&#8217;d &#8220;normally&#8221; build a WordPress website. It&#8217;s literally <a href="https://nextjs.org/">Next.js</a>, so it&#8217;s React-powered, and it looks like it grabs the data with <a href="https://gqty.dev/">GQty</a>, a GraphQL client. That weirded me out because I was like&#8230; WordPress&#8217; API isn&#8217;t GraphQL by default. But that&#8217;s part of the Blueprint! It installs and activates <a href="https://www.wpgraphql.com/">WP GraphQL</a> by default. </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?ssl=1"><img data-attachment-id="7670" data-permalink="https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/screenshot-2022-11-08-at-2-33-40-pm/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?fit=3424%2C3120&amp;ssl=1" data-orig-size="3424,3120" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-08-at-2.33.40-PM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?fit=300%2C273&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?fit=1024%2C933&amp;ssl=1" loading="lazy" width="1024" height="933" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?resize=1024%2C933&#038;ssl=1" alt="" class="wp-image-7670" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?resize=1024%2C933&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?resize=300%2C273&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?resize=768%2C700&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?resize=1536%2C1400&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?resize=2048%2C1866&amp;ssl=1 2048w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.33.40-PM.png?w=3000&amp;ssl=1 3000w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?ssl=1"><img data-attachment-id="7671" data-permalink="https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/screenshot-2022-11-08-at-2-34-05-pm/" data-orig-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?fit=2870%2C1728&amp;ssl=1" data-orig-size="2870,1728" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screenshot-2022-11-08-at-2.34.05-PM" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?fit=300%2C181&amp;ssl=1" data-large-file="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?fit=1024%2C617&amp;ssl=1" loading="lazy" width="1024" height="617" src="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?resize=1024%2C617&#038;ssl=1" alt="" class="wp-image-7671" srcset="https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?resize=1024%2C617&amp;ssl=1 1024w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?resize=300%2C181&amp;ssl=1 300w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?resize=768%2C462&amp;ssl=1 768w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?resize=1536%2C925&amp;ssl=1 1536w, https://i0.wp.com/chriscoyier.net/wp-content/uploads/2022/11/Screenshot-2022-11-08-at-2.34.05-PM.png?resize=2048%2C1233&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>This is some fancy shit I tell you what!!!</p>
+
+
+
+<p>Part of me is like&#8230; ugh, but this is <em>a lot</em> of technology to maintain. I wouldn&#8217;t do it for anything that doesn&#8217;t <em>really</em> need it. The homepage has like 4 MB of JavaScript by default &#x1f62d;. That&#8217;s a development build but still, cripes. </p>
+
+
+
+<p>But another part of me is like&#8230; I would probably enjoy working on a serious product with this stack. Because two things:</p>
+
+
+
+<ul><li>The DX of Next.js and GraphQL is fricking good and it blows working with normal WordPress theme workflow out of the water.</li><li>I still get to use WordPress, which is a very nice CMS that blows any Node.js-native thing out of the water.</li></ul>
+
+
+
+<p>I just don&#8217;t like how this isn&#8217;t quite a first-class citizen situation from either side.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://chriscoyier.net/2022/11/08/local-by-flywheel-has-fancy-headless-wordpress-scaffolding/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
