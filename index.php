@@ -1,5 +1,14 @@
 <?php
 
+function add_article($text, $link, $filename, $tmp_filename)
+{
+    $index_file = fopen($filename, 'r');
+    $tmp_file = fopen($tmp_filename, 'w');
+    fclose($index_file);
+    fclose($tmp_file);
+    rename($tmp_filename, $filename);
+}
+
 function output_index($filename, $headers_only = false)
 {
     $stylesheet_line = <<<EOT
