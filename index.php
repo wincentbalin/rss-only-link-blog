@@ -30,17 +30,7 @@ function add_item($out_file, $text, $link, $dt)
 function copy_rest($in_file, $out_file)
 {
     fputs($out_file, '<item>' . PHP_EOL);  # Eaten up in update_channel
-    if (function_exists('stream_copy_to_stream'))
-    {
-        stream_copy_to_stream($in_file, $out_file);
-    }
-    else
-    {
-        while (feof($in_file))
-        {
-            fputs($out_file, fgets($in_file));
-        }
-    }
+    while (feof($in_file)) { fwrite($out_file, fread($in_file, 8192)); }
 }
 
 function add_article($text, $link, $filename, $tmp_filename)
