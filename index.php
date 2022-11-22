@@ -1,4 +1,17 @@
 <?php
+function add_item($in_file, $out_file, $text, $link)
+{
+}
+
+function update_channel($in_file, $out_file)
+{
+    $has_chennel_link = false;
+    # Parse channel elements
+    while (($line = fgets($in_file)) !== false)
+    {
+        $stripped_line = $line;
+    }
+}
 
 function add_article($text, $link, $filename, $tmp_filename)
 {
