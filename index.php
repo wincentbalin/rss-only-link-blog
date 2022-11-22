@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+
 function add_item($in_file, $out_file, $text, $link)
 {
 }
