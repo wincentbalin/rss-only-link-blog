@@ -16,7 +16,7 @@ function output_index($filename, $headers_only = false)
 
 EOT;
     $content_length = filesize($filename) + strlen($stylesheet_line);
-    $last_modified_format = 'D, d M Y H:i:s \\G\\M\\T';
+    $last_modified_format = 'D, d M Y H:i:s \\G\\M\\T';  # DATE_RFC7231 in PHP7
     $last_modified = date($last_modified_format, filemtime($filename));
 
     header('Content-Type: application/xml');
