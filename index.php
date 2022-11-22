@@ -30,9 +30,16 @@ function add_item($out_file, $text, $link, $dt)
 function copy_rest($in_file, $out_file)
 {
     fputs($out_file, '<item>' . PHP_EOL);  # Eaten up in update_channel
-    while (feof($in_file))
+    if (function_exists('stream_copy_to_stream'))
     {
-        fputs($out_file, fgets($in_file));
+        stream_copy_to_stream($in_file, $out_file);
+    }
+    else
+    {
+        while (feof($in_file))
+        {
+            fputs($out_file, fgets($in_file));
+	}
     }
 }
 
