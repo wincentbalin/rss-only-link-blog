@@ -24,14 +24,13 @@ EOT;
     header('Last-Modified: ' . $last_modified);
 
     if ($headers_only === true)
-        exit;
+        return;
 
     $index_file = fopen($filename, 'r');
     echo fgets($index_file);  # Output declaration line
     echo $stylesheet_line;    # Output stylesheet line
     fpassthru($index_file);   # Output the rest of the index file and close it
     fclose($index_file);
-    exit;
 }
 
 output_index('index.xml');
