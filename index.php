@@ -33,11 +33,12 @@ EOT;
     fclose($index_file);
 }
 
-if ($_SERVER['REQUEST_METHOD'] === 'HEAD')
+$request_method = $_SERVER['REQUEST_METHOD'];
+if ($request_method === 'HEAD')
 {
     output_index('index.xml', $headers_only = true);
 }
-elseif ($_SERVER['REQUEST_METHOD'] === 'GET')
+elseif ($request_method === 'GET')
 {
     output_index('index.xml');
 }
