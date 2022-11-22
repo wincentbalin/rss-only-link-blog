@@ -39,7 +39,7 @@ function copy_rest($in_file, $out_file)
         while (feof($in_file))
         {
             fputs($out_file, fgets($in_file));
-	}
+        }
     }
 }
 
