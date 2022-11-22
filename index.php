@@ -1,6 +1,6 @@
 <?php
 
-function output_index($filename, $headers_only = FALSE)
+function output_index($filename, $headers_only = false)
 {
     $stylesheet_line = <<<EOT
 <?xml-stylesheet type="text/xsl" href="tohtml5.xsl"?>
@@ -14,7 +14,7 @@ EOT;
     header('Content-Length: ' . $content_length);
     header('Last-Modified: ' . $last_modified);
 
-    if ($headers_only === TRUE)
+    if ($headers_only === true)
         exit;
 
     $index_file = fopen($filename, 'r');
