@@ -42,4 +42,8 @@ elseif ($request_method === 'GET')
 {
     output_index('index.xml');
 }
+else
+{
+    http_response_code(405);
+}
 
