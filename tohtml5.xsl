@@ -3,10 +3,10 @@
 <!-- The last attribute below is the HTML5 compatibility attribute -->
 <xsl:output method="html" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat"/>
 
-<xsl:template match="/rss">
+<xsl:template match="/rss/channel">
 <html>
 <head>
-    <title>TITLE</title>
+    <title><xsl:value-of select="title/text()"/></title>
     <xsl:apply-templates/>
 </head>
 <body>
