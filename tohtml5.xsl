@@ -10,6 +10,7 @@
     <xsl:apply-templates/>
 </head>
 <body>
+    <h1><xsl:value-of select="title/text()"/></h1>
     <xsl:apply-templates/>
 </body>
 </html>
