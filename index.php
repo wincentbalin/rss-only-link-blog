@@ -26,6 +26,11 @@ function update_channel($in_file, $out_file, $date, &$line_after_item)
 
 function add_item($out_file, $text, $link, $date)
 {
+    fputs($out_file, '<item>' . PHP_EOL);
+    fputs($out_file, '<description>' . $text . '</description>' . PHP_EOL);
+    fputs($out_file, '<link>' . $link . '</link>' . PHP_EOL);
+    fputs($out_file, '<pubDate>' . $date . '</pubDate>' . PHP_EOL);
+    fputs($out_file, '</item>' . PHP_EOL);
 }
 
 function copy_rest($in_file, $out_file, &$line_after_item)
