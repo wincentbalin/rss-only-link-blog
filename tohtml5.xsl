@@ -18,6 +18,7 @@
 <xsl:template match="item">
     <p>
         <xsl:value-of select="description/text()"/>
+        <xsl:text> </xsl:text>
         <a>
             <xsl:attribute name="href"><xsl:value-of select="link/text()"/></xsl:attribute>
             <xsl:choose>
