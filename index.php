@@ -45,6 +45,11 @@ function add_article($text, $link, $filename, $tmp_filename)
     $rss_date = date($rss_time_format, time());
     $index_file = fopen($filename, 'r');
     $tmp_file = fopen($tmp_filename, 'w');
+    if ($tmp_file === false)
+    {
+        # TODO Add error handling for non-writable directory
+        exit;
+    }
     $line_after_item = '';
     update_channel($index_file, $tmp_file, $rss_date, $line_after_item);
     add_item($tmp_file, $text, $link, $rss_date);
