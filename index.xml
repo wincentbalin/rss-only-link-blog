@@ -4,9 +4,5 @@
 <title>Useful links</title>
 <link></link>
 <description>A simple link blog</description>
-<item>
-<description><![CDATA[Before adding links, please perform following steps.]]></description>
-<link><![CDATA[javascript:alert('Start configuration...')]]></link>
-</item>
 </channel>
 </rss>

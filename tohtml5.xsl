@@ -10,7 +10,17 @@
 </head>
 <body>
     <h1><xsl:value-of select="title/text()"/></h1>
-    <xsl:apply-templates select="item"/>
+    <xsl:choose>
+        <xsl:when test="item"><xsl:apply-templates select="item"/></xsl:when>
+        <xsl:otherwise>
+            Before adding links, please perform following steps.
+            <ol>
+                <li>First step!!1!</li>
+            </ol>
+            <a href="javascript:alert('Start configuration...')">Create bookmarklet</a>
+        </xsl:otherwise>
+    </xsl:choose>
+    
 </body>
 </html>
 </xsl:template>
@@ -21,12 +31,7 @@
         <xsl:text> </xsl:text>
         <a>
             <xsl:attribute name="href"><xsl:value-of select="link/text()"/></xsl:attribute>
-            <xsl:choose>
-                <!-- The link in an added article -->
-                <xsl:when test="@id"><xsl:value-of select="link/text()"/></xsl:when>
-                <!-- Configuration link -->
-                <xsl:otherwise>Create bookmarklet</xsl:otherwise>
-            </xsl:choose>
+            <xsl:value-of select="link/text()"/>
         </a>
     </p>
 </xsl:template>
