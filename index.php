@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-function update_channel($in_file, $out_file, $date, &$line_after_item)
+function update_channel($in_file, $out_file, &$date, &$line_after_item)
 {
     # Parse channel elements
     while (($line = fgets($in_file)) !== false)
@@ -24,7 +24,7 @@ function update_channel($in_file, $out_file, $date, &$line_after_item)
     }
 }
 
-function add_item($out_file, $text, $link, $date)
+function add_item($out_file, $text, $link, &$date)
 {
     fputs($out_file, '<item>' . PHP_EOL);
     fputs($out_file, '<description>' . $text . '</description>' . PHP_EOL);
