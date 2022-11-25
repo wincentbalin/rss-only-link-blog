@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-function update_channel($in_file, $out_file, $date)
+function update_channel($in_file, $out_file, $date, &$line_after_item)
 {
     # Parse channel elements
     while (($line = fgets($in_file)) !== false)
@@ -11,8 +11,9 @@ function update_channel($in_file, $out_file, $date)
         {
             $line = '<lastBuildDate>' . $date . '</lastBuildDate>' . PHP_EOL;
         }
-        elseif (strpos($trimmed_line, '<item>') !== false)
+        elseif (strpos($trimmed_line, '<item>') !== false || strpos($trimmed_line, '</channel>') !== false)
         {
+            $line_after_item = $line;
             break;
         }
         else
@@ -27,9 +28,9 @@ function add_item($out_file, $text, $link, $date)
 {
 }
 
-function copy_rest($in_file, $out_file)
+function copy_rest($in_file, $out_file, &$line_after_item)
 {
-    fputs($out_file, '<item>' . PHP_EOL);  # Eaten up in update_channel
+    fputs($out_file, $line_after_item);  # Eaten up in update_channel
     while (feof($in_file)) { fwrite($out_file, fread($in_file, 8192)); }
 }
 
@@ -39,9 +40,10 @@ function add_article($text, $link, $filename, $tmp_filename)
     $rss_date = date($rss_time_format, time());
     $index_file = fopen($filename, 'r');
     $tmp_file = fopen($tmp_filename, 'w');
-    update_channel($index_file, $tmp_file, $rss_date);
+    $line_after_item = '';
+    update_channel($index_file, $tmp_file, $rss_date, $line_after_item);
     add_item($tmp_file, $text, $link, $rss_date);
-    copy_rest($index_file, $tmp_file);
+    copy_rest($index_file, $tmp_file, $line_after_item);
     fclose($index_file);
     fclose($tmp_file);
     rename($tmp_filename, $filename);
