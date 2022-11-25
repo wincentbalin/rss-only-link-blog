@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-function update_channel($in_file, $out_file, $dt)
+function update_channel($in_file, $out_file, $date)
 {
     # Parse channel elements
     while (($line = fgets($in_file)) !== false)
@@ -9,7 +9,7 @@ function update_channel($in_file, $out_file, $dt)
         $trimmed_line = trim($line);
         if (strpos($trimmed_line, '<lastBuildDate>') !== false)
         {
-            $line = '<lastBuildDate>' . $dt . '</lastBuildDate>' . PHP_EOL;
+            $line = '<lastBuildDate>' . $date . '</lastBuildDate>' . PHP_EOL;
         }
         elseif (strpos($trimmed_line, '<item>') !== false)
         {
@@ -23,7 +23,7 @@ function update_channel($in_file, $out_file, $dt)
     }
 }
 
-function add_item($out_file, $text, $link, $dt)
+function add_item($out_file, $text, $link, $date)
 {
 }
 
