@@ -6,6 +6,7 @@
 <description>A simple link blog</description>
 <item>
 <description><![CDATA[]]></description>
+<link><![CDATA[javascript:alert('Start configuration...')]]></link>
 </item>
 </channel>
 </rss>
