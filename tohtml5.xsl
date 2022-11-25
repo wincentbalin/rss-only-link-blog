@@ -19,17 +19,13 @@
     <p>
         <xsl:value-of select="description/text()"/>
         <a>
-        <xsl:attribute name="href"><xsl:value-of select="link/text()"/></xsl:attribute>
-        <xsl:choose>
-            <xsl:when test="@id">
+            <xsl:attribute name="href"><xsl:value-of select="link/text()"/></xsl:attribute>
+            <xsl:choose>
                 <!-- The link in an added article -->
-                <xsl:value-of select="link/text()"/>
-            </xsl:when>
-            <xsl:otherwise>
+                <xsl:when test="@id"><xsl:value-of select="link/text()"/></xsl:when>
                 <!-- Configuration link -->
-                Create bookmarklet
-            </xsl:otherwise>
-        </xsl:choose>
+                <xsl:otherwise>Create bookmarklet</xsl:otherwise>
+            </xsl:choose>
         </a>
     </p>
 </xsl:template>
