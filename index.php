@@ -1,4 +1,5 @@
 <?php
+$password = '';
 error_reporting(E_ALL);
 
 function update_channel($in_file, $out_file, &$date, &$line_after_item)
