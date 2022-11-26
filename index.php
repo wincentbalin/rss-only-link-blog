@@ -2,6 +2,15 @@
 $password = '';
 error_reporting(E_ALL);
 
+function requested_add_new_article()
+{
+    $has_text = array_key_exists('t', $_GET) && !empty($_GET['t']);
+    $has_link = array_key_exists('l', $_GET) && !empty($_GET['l']);
+    $has_script_tag_id = array_key_exists('s', $_GET) && !empty($_GET['s']);
+    $has_timeout_id = array_key_exists('o', $_GET) && !empty($_GET['o']);
+    return $has_text && $has_link && $has_script_tag_id && $has_timeout_id;
+}
+
 function update_channel($in_file, $out_file, &$date, &$line_after_item)
 {
     # Parse channel elements
@@ -40,8 +49,13 @@ function copy_rest($in_file, $out_file, &$line_after_item)
     while (feof($in_file)) { fwrite($out_file, fread($in_file, 8192)); }
 }
 
-function add_article($text, $link, $filename, $tmp_filename)
+function add_article($filename, $tmp_filename)
 {
+    $text = $_GET['t'];
+    $link = $_GET['l'];
+    $script_tag_id = $_GET['s'];
+    $timeout_id = $_GET['o'];
+
     $rss_time_format = 'D, d M Y H:i:s O';  # DATE_RSS in PHP7
     $rss_date = date($rss_time_format, time());
     $index_file = fopen($filename, 'r');
@@ -91,7 +105,10 @@ if ($request_method === 'HEAD')
 }
 elseif ($request_method === 'GET')
 {
-    output_index('index.xml');
+    if (requested_add_new_article())
+        add_article('index.xml', 'indextmp.xml');
+    else
+        output_index('index.xml');
 }
 else
 {
