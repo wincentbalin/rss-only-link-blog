@@ -13,12 +13,13 @@
     <xsl:apply-templates select="item"/>
     <hr/>
     <h1>Setup</h1>
-    <h2>On server</h2>
-    <p>It seems that you have installed this fine blog. Very good!</p>
-    Before adding links to this blog, please perform following steps:
+    It seems that you have installed this fine blog. Very good!
+    <h2>On web server</h2>
+    Before adding links to this blog, please perform the following steps:
     <ol>
-        <li>Edit the password in the line <code>7</code> in the file <code>index.php</code>. By default it is empty, and the blog software will complain about it!</li>
-        <li>Edit the address of this blog in the line <code>7</code> in the file <code>index.xml</code> (in the <code>&lt;link&gt;</code> tag). This is the same address as you are currently seeing in the addressbar of your web browser.</li>
+        <li>Edit the password in the line <code><b>TODO</b> 7</code> in the file <code>index.php</code>. By default it is empty, and the blog software will complain about it!</li>
+        <li>Edit the address of this blog in the line <code><b>TODO</b> 7</code> in the file <code>index.xml</code> (in the <code>&lt;link&gt;</code> tag). This is the same address as you are currently seeing in the addressbar of your web browser.</li>
+        <li>You can add your name to the feed inside the <code>managingEditor</code> tag in the file <code>index.xml</code>.</li>
         <li>Actually, you only need these 3 files to run the blog: <code>index.php</code>, <code>index.xml</code>, and <code>tohtml5.xsl</code>. You can remove the rest.</li>
     </ol>
     <h2>In web browser</h2>
