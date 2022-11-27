@@ -45,6 +45,7 @@
         <xsl:text> </xsl:text>
         <a>
             <xsl:attribute name="href"><xsl:value-of select="link/text()"/></xsl:attribute>
+            <xsl:attribute name="target">_blank</xsl:attribute>
             <xsl:value-of select="link/text()"/>
         </a>
     </p>
