@@ -26,7 +26,8 @@ EOT;
 function jsonp_retry($error, $password, $text, $link, $script_tag_id, $timeout_id)
 {
     jsonp_cleanup($script_tag_id, $timeout_id);
-    $url = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . ($_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '443' || !$_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '80' ? ':' . $_SERVER['SERVER_PORT'] : '') . $_SERVER['REQUEST_URI'];
+    $server_port = $_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '443' || !$_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '80' ? ':' . $_SERVER['SERVER_PORT'] : '';
+    $url = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . $server_port . $_SERVER['REQUEST_URI'];
     $javascript = <<<EOT
 (function() {
     var url = '$url';
