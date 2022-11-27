@@ -54,7 +54,7 @@ function add_item($out_file, $text, $link, &$date)
 function copy_rest($in_file, $out_file, &$line_after_item)
 {
     fputs($out_file, $line_after_item);  # Eaten up in update_channel
-    while (feof($in_file)) { fwrite($out_file, fread($in_file, 8192)); }
+    while (!feof($in_file)) { fwrite($out_file, fread($in_file, 8192)); }
 }
 
 function add_article($filename, $tmp_filename)
