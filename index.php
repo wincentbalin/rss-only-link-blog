@@ -25,11 +25,14 @@ EOT;
     jsonp_reply($javascript);
 }
 
-function jsonp_retry($error, $password, $text, $link)
+function jsonp_retry($error)
 {
     jsonp_cleanup();
     $server_port = $_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '443' || !$_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '80' ? ':' . $_SERVER['SERVER_PORT'] : '';
     $url = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . $server_port . $_SERVER['REQUEST_URI'];
+    $password = $_GET['p'];
+    $text = $_GET['t'];
+    $link = $_GET['l'];
     $javascript = <<<EOT
 (function() {
     var url = '$url';
@@ -115,17 +118,14 @@ function copy_rest($in_file, $out_file, &$line_after_item)
 function add_article($filename, $tmp_filename)
 {
     global $password;
-    $text = $_GET['t'];
-    $link = $_GET['l'];
-
     if ($password === '')
     {
-        jsonp_retry('You did not set the password on server!', $_GET['p'], $text, $link);
+        jsonp_retry('You did not set the password on server!');
         exit;
     }
     if ($password !== $_GET['p'])
     {
-        jsonp_retry('Wrong password!', $_GET['p'], $text, $link);
+        jsonp_retry('Wrong password!');
         exit;
     }
 
@@ -135,7 +135,7 @@ function add_article($filename, $tmp_filename)
     $tmp_file = fopen($tmp_filename, 'w');
     if ($tmp_file === false)
     {
-        jsonp_retry('Cannot write on server, possibly wrong permissions!', $_GET['p'], $text, $link);
+        jsonp_retry('Cannot write on server, possibly wrong permissions!');
         exit;
     }
     $line_after_item = '';
