@@ -23,6 +23,39 @@ EOT;
     jsonp_reply($javascript);
 }
 
+function jsonp_retry($error, $password, $text, $link, $script_tag_id, $timeout_id)
+{
+    jsonp_cleanup($script_tag_id, $timeout_id);
+    $url = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . ($_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '443' || !$_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '80' ? ':' . $_SERVER['SERVER_PORT'] : '') . $_SERVER['REQUEST_URI'];
+    $javascript = <<<EOT
+(function() {
+    var url = '$url';
+    var password = '$password';
+    function connectionError(link, text) {
+        var retry = confirm('Connection error! Retry?');
+        if (retry) {
+            addArticle(link, text);
+        }
+    }
+    function addArticle(link, text) {
+        // Collect parameters
+        var scriptElementId = 'script-' + Date.now();
+        var timeoutId = setTimeout(connectionError, 5000, link, text);
+        // Add script element
+        var script = document.createElement('script');
+        script.id = scriptElementId;
+        script.src = url + '?p=' + encodeURIComponent(password) + '&l=' + encodeURIComponent(link) + '&t=' + encodeURIComponent(text) + '&s=' + encodeURIComponent(scriptElementId) + '&o=' + encodeURIComponent(timeoutId);
+        document.body.appendChild(script);
+    }
+    var retry = confirm('$error Retry?');
+    if (retry) {
+        addArticle('$link', '$text');
+    }
+})();
+EOT;
+    echo $javascript;
+}
+
 function parameter_present_and_not_empty($p)
 {
     return array_key_exists($p, $_GET) && !empty($_GET[$p]);
@@ -79,20 +112,21 @@ function copy_rest($in_file, $out_file, &$line_after_item)
 function add_article($filename, $tmp_filename)
 {
     global $password;
-    if ($password === '')
-    {
-        # TODO Add error handling for empty password
-        exit;
-    }
-    if ($password !== $_GET['p'])
-    {
-        # TODO Add error handling for wrong password
-        exit;
-    }
     $text = $_GET['t'];
     $link = $_GET['l'];
     $script_tag_id = $_GET['s'];
     $timeout_id = $_GET['o'];
+
+    if ($password === '')
+    {
+        jsonp_retry('You did not set the password on server!', $_GET['p'], $text, $link, $script_tag_id, $timeout_id);
+        exit;
+    }
+    if ($password !== $_GET['p'])
+    {
+        jsonp_retry('Wrong password!', $_GET['p'], $text, $link, $script_tag_id, $timeout_id);
+        exit;
+    }
 
     $rss_time_format = 'D, d M Y H:i:s O';  # DATE_RSS in PHP7
     $rss_date = date($rss_time_format, time());
@@ -100,7 +134,7 @@ function add_article($filename, $tmp_filename)
     $tmp_file = fopen($tmp_filename, 'w');
     if ($tmp_file === false)
     {
-        # TODO Add error handling for non-writable directory
+        jsonp_retry('Cannot write on server, possibly wrong permissions!', $_GET['p'], $text, $link, $script_tag_id, $timeout_id);
         exit;
     }
     $line_after_item = '';
