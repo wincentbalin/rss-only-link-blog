@@ -59,6 +59,17 @@ function copy_rest($in_file, $out_file, &$line_after_item)
 
 function add_article($filename, $tmp_filename)
 {
+    global $password;
+    if ($password === '')
+    {
+        # TODO Add error handling for empty password
+        exit;
+    }
+    if ($password !== $_GET['p'])
+    {
+        # TODO Add error handling for wrong password
+        exit;
+    }
     $text = $_GET['t'];
     $link = $_GET['l'];
     $script_tag_id = $_GET['s'];
