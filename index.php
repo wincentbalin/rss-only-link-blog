@@ -2,7 +2,6 @@
 $password = '';
 error_reporting(E_ALL);
 
-
 function parameter_present_and_not_empty($p)
 {
     return array_key_exists($p, $_GET) && !empty($_GET[$p]);
@@ -17,7 +16,6 @@ function requested_add_new_article()
     $has_timeout_id = parameter_present_and_not_empty('o');
     return $has_password && $has_text && $has_link && $has_script_tag_id && $has_timeout_id;
 }
-
 
 function update_channel($in_file, $out_file, &$date, &$line_after_item)
 {
