@@ -2,6 +2,25 @@
 $password = '';
 error_reporting(E_ALL);
 
+function jsonp_reply($source_code)
+{
+    header('Content-Type: text/javascript');
+    header('Content-Length: ' . strlen($source_code));
+    echo $source_code;
+}
+
+function jsonp_cleanup($script_tag_id, $timeout_id)
+{
+    $javascript = <<<EOT
+(function() {
+    var scriptElement = document.getElementById('$script_tag_id');
+    scriptElement.parentElement.removeChild(scriptElement);
+    clearTimeout($timeout_id);
+})();
+EOT;
+    jsonp_reply($javascript);
+}
+
 function parameter_present_and_not_empty($p)
 {
     return array_key_exists($p, $_GET) && !empty($_GET[$p]);
@@ -89,6 +108,7 @@ function add_article($filename, $tmp_filename)
     fclose($index_file);
     fclose($tmp_file);
     rename($tmp_filename, $filename);
+    jsonp_cleanup($script_tag_id, $timeout_id);
 }
 
 function output_index($filename, $headers_only = false)
