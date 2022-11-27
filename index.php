@@ -62,6 +62,32 @@ EOT;
     echo $javascript;
 }
 
+function jsonp_ok()
+{
+    jsonp_cleanup();
+    $javascript = <<<EOT
+(function() {
+    var element = document.createElement('div');
+    element.textContent = ':-)';
+    element.style.position = 'absolute';
+    element.style.top = 0;
+    element.style.left = 0;
+    element.style.width = '100%';
+    element.style.backgroundColor = 'lightgray';
+    element.style.zIndex = 50000;
+    element.style.opacity = 0.6;
+    element.style.textAlign = 'center';
+    element.style.fontFamily = 'sans-serif';
+    element.style.fontSize = '5ex';
+    document.body.appendChild(element);
+    setTimeout(function() {
+        element.parentElement.removeChild(element);
+    }, 2000);
+})();
+EOT;
+    echo $javascript;
+}
+
 function parameter_present_and_not_empty($p)
 {
     return array_key_exists($p, $_GET) && !empty($_GET[$p]);
@@ -145,7 +171,7 @@ function add_article($filename, $tmp_filename)
     fclose($index_file);
     fclose($tmp_file);
     rename($tmp_filename, $filename);
-    jsonp_cleanup();  # TODO replace with a visible affirmation
+    jsonp_ok();
 }
 
 function output_index($filename, $headers_only = false)
