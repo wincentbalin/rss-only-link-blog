@@ -11,8 +11,10 @@ function jsonp_reply($source_code)
     echo $source_code;
 }
 
-function jsonp_cleanup($script_tag_id, $timeout_id)
+function jsonp_cleanup()
 {
+    $script_tag_id = $_GET['s'];
+    $timeout_id = $_GET['o'];
     $javascript = <<<EOT
 (function() {
     var scriptElement = document.getElementById('$script_tag_id');
@@ -23,9 +25,9 @@ EOT;
     jsonp_reply($javascript);
 }
 
-function jsonp_retry($error, $password, $text, $link, $script_tag_id, $timeout_id)
+function jsonp_retry($error, $password, $text, $link)
 {
-    jsonp_cleanup($script_tag_id, $timeout_id);
+    jsonp_cleanup();
     $server_port = $_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '443' || !$_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '80' ? ':' . $_SERVER['SERVER_PORT'] : '';
     $url = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . $server_port . $_SERVER['REQUEST_URI'];
     $javascript = <<<EOT
@@ -115,17 +117,15 @@ function add_article($filename, $tmp_filename)
     global $password;
     $text = $_GET['t'];
     $link = $_GET['l'];
-    $script_tag_id = $_GET['s'];
-    $timeout_id = $_GET['o'];
 
     if ($password === '')
     {
-        jsonp_retry('You did not set the password on server!', $_GET['p'], $text, $link, $script_tag_id, $timeout_id);
+        jsonp_retry('You did not set the password on server!', $_GET['p'], $text, $link);
         exit;
     }
     if ($password !== $_GET['p'])
     {
-        jsonp_retry('Wrong password!', $_GET['p'], $text, $link, $script_tag_id, $timeout_id);
+        jsonp_retry('Wrong password!', $_GET['p'], $text, $link);
         exit;
     }
 
@@ -135,7 +135,7 @@ function add_article($filename, $tmp_filename)
     $tmp_file = fopen($tmp_filename, 'w');
     if ($tmp_file === false)
     {
-        jsonp_retry('Cannot write on server, possibly wrong permissions!', $_GET['p'], $text, $link, $script_tag_id, $timeout_id);
+        jsonp_retry('Cannot write on server, possibly wrong permissions!', $_GET['p'], $text, $link);
         exit;
     }
     $line_after_item = '';
@@ -145,7 +145,7 @@ function add_article($filename, $tmp_filename)
     fclose($index_file);
     fclose($tmp_file);
     rename($tmp_filename, $filename);
-    jsonp_cleanup($script_tag_id, $timeout_id);
+    jsonp_cleanup();  # TODO replace with a visible affirmation
 }
 
 function output_index($filename, $headers_only = false)
