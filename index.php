@@ -2,15 +2,22 @@
 $password = '';
 error_reporting(E_ALL);
 
+
+function parameter_present_and_not_empty($p)
+{
+    return array_key_exists($p, $_GET) && !empty($_GET[$p]);
+}
+
 function requested_add_new_article()
 {
-    $has_password = array_key_exists('p', $_GET) && !empty($_GET['p'])
-    $has_text = array_key_exists('t', $_GET) && !empty($_GET['t']);
-    $has_link = array_key_exists('l', $_GET) && !empty($_GET['l']);
-    $has_script_tag_id = array_key_exists('s', $_GET) && !empty($_GET['s']);
-    $has_timeout_id = array_key_exists('o', $_GET) && !empty($_GET['o']);
+    $has_password = parameter_present_and_not_empty('p');
+    $has_text = parameter_present_and_not_empty('t');
+    $has_link = parameter_present_and_not_empty('l');
+    $has_script_tag_id = parameter_present_and_not_empty('s');
+    $has_timeout_id = parameter_present_and_not_empty('o');
     return $has_password && $has_text && $has_link && $has_script_tag_id && $has_timeout_id;
 }
+
 
 function update_channel($in_file, $out_file, &$date, &$line_after_item)
 {
