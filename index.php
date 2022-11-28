@@ -127,8 +127,10 @@ function update_channel($in_file, $out_file, &$date, &$line_after_item)
     }
 }
 
-function add_item($out_file, $text, $link, &$date)
+function add_item($out_file, &$date)
 {
+    $text = $_GET['t'];
+    $link = $_GET['l'];
     fputs($out_file, '<item>' . PHP_EOL);
     fputs($out_file, '<title>' . htmlspecialchars($text, ENT_XML1, 'utf-8') . '</title>' . PHP_EOL);
     fputs($out_file, '<link>' . htmlspecialchars($link, ENT_XML1, 'utf-8') . '</link>' . PHP_EOL);
@@ -167,7 +169,7 @@ function add_article($filename, $tmp_filename)
     }
     $line_after_item = '';
     update_channel($index_file, $tmp_file, $rss_date, $line_after_item);
-    add_item($tmp_file, $text, $link, $rss_date);
+    add_item($tmp_file, $rss_date);
     copy_rest($index_file, $tmp_file, $line_after_item);
     fclose($index_file);
     fclose($tmp_file);
