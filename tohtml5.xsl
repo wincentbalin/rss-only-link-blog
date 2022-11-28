@@ -15,7 +15,7 @@
     </link>
     <style>
 .date { color: lightgray }
-hr { color: lightgray }
+hr { background-color: lightgray; height: 1px; border: 0 }
     </style>
 </head>
 <body>
