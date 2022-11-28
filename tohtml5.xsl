@@ -43,15 +43,6 @@ alert('Start configuration...')">Create bookmarklet</a>
 
 <xsl:template match="item">
     <p>
-        <xsl:attribute name="id">
-            <!-- Generate consistent id value from the item's publication date -->
-            <xsl:value-of select="substring(pubDate/text(), 13, 4)"/>
-            <xsl:value-of select="substring(pubDate/text(), 9, 3)"/>
-            <xsl:value-of select="substring(pubDate/text(), 6, 2)"/>
-            <xsl:value-of select="substring(pubDate/text(), 18, 2)"/>
-            <xsl:value-of select="substring(pubDate/text(), 21, 2)"/>
-            <xsl:value-of select="substring(pubDate/text(), 24, 2)"/>
-        </xsl:attribute>
         <xsl:apply-templates select="pubDate"/>
         <xsl:text> </xsl:text>
         <xsl:value-of select="title/text()"/>
