@@ -7,6 +7,12 @@
 <html>
 <head>
     <title><xsl:value-of select="title/text()"/></title>
+    <link>
+        <xsl:attribute name="rel">alternate</xsl:attribute>
+        <xsl:attribute name="type">application/rss+xml</xsl:attribute>
+        <xsl:attribute name="title">RSS 2.0</xsl:attribute>
+        <xsl:attribute name="href">index.xml</xsl:attribute>
+    </link>
 </head>
 <body>
     <h1><xsl:value-of select="title/text()"/></h1>
