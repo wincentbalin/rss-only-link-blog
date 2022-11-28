@@ -28,8 +28,9 @@ EOT;
 function jsonp_retry($error)
 {
     jsonp_cleanup();
-    $server_port = $_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '443' || !$_SERVER['HTTPS'] && $_SERVER['SERVER_PORT'] != '80' ? ':' . $_SERVER['SERVER_PORT'] : '';
-    $url = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . $server_port . $_SERVER['REQUEST_URI'];
+    $https = array_key_exists('HTTPS', $_SERVER) && $_SERVER['HTTPS'];
+    $server_port = $https && $_SERVER['SERVER_PORT'] != '443' || !$https && $_SERVER['SERVER_PORT'] != '80' ? ':' . $_SERVER['SERVER_PORT'] : '';
+    $url = ($https ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . $server_port . $_SERVER['REQUEST_URI'];
     $password = $_GET['p'];
     $text = $_GET['t'];
     $link = $_GET['l'];
