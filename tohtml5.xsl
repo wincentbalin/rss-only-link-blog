@@ -47,6 +47,7 @@
             <xsl:value-of select="substring(pubDate/text(), 21, 2)"/>
             <xsl:value-of select="substring(pubDate/text(), 24, 2)"/>
         </xsl:attribute>
+        <xsl:apply-templates select="pubDate"/>
         <xsl:value-of select="title/text()"/>
         <xsl:text> </xsl:text>
         <a>
@@ -55,6 +56,39 @@
             <xsl:value-of select="link/text()"/>
         </a>
     </p>
+</xsl:template>
+
+<xsl:template match="pubDate">
+    <xsl:variable name="monthName"><xsl:value-of select="substring(text(), 9, 3)"/></xsl:variable>
+    <xsl:variable name="date-with-hours-and-minute">
+        <xsl:value-of select="substring(text(), 13, 4)"/>
+        <xsl:text>-</xsl:text>
+        <xsl:choose>
+            <xsl:when test="$monthName = 'Jan'">01</xsl:when>
+            <xsl:when test="$monthName = 'Feb'">02</xsl:when>
+            <xsl:when test="$monthName = 'Mar'">03</xsl:when>
+            <xsl:when test="$monthName = 'Apr'">04</xsl:when>
+            <xsl:when test="$monthName = 'May'">05</xsl:when>
+            <xsl:when test="$monthName = 'Jun'">06</xsl:when>
+            <xsl:when test="$monthName = 'Jul'">07</xsl:when>
+            <xsl:when test="$monthName = 'Aug'">08</xsl:when>
+            <xsl:when test="$monthName = 'Sep'">09</xsl:when>
+            <xsl:when test="$monthName = 'Oct'">10</xsl:when>
+            <xsl:when test="$monthName = 'Nov'">11</xsl:when>
+            <xsl:when test="$monthName = 'Dec'">12</xsl:when>
+        </xsl:choose>
+        <xsl:text>-</xsl:text>
+        <xsl:value-of select="substring(text(), 6, 2)"/>
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="substring(pubDate/text(), 18, 2)"/>
+        <xsl:text>:</xsl:text>
+        <xsl:value-of select="substring(pubDate/text(), 21, 2)"/>
+    </xsl:variable>
+    <time>
+        <xsl:attribute name="style">color: lightgray</xsl:attribute>
+        <xsl:attribute name="datetime"><xsl:copy-of select="$date-with-hours-and-minute"/></xsl:attribute>
+        <xsl:copy-of select="$date-with-hours-and-minute"/>
+    </time>
 </xsl:template>
 
 </xsl:stylesheet>
