@@ -10,7 +10,7 @@
     <link>
         <xsl:attribute name="rel">alternate</xsl:attribute>
         <xsl:attribute name="type">application/rss+xml</xsl:attribute>
-        <xsl:attribute name="title">RSS 2.0</xsl:attribute>
+        <xsl:attribute name="title">RSS</xsl:attribute>
         <xsl:attribute name="href">index.xml</xsl:attribute>
     </link>
     <style>
