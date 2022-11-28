@@ -18,9 +18,9 @@
     <h1><xsl:value-of select="title/text()"/></h1>
     <xsl:apply-templates select="item"/>
     <hr/>
-    <h1>Setup</h1>
+    <h2>Setup</h2>
     It seems that you have installed this fine blog. Very good!
-    <h2>On web server</h2>
+    <h3>On web server</h3>
     Before adding links to this blog, please perform the following steps:
     <ol>
         <li>Edit the password in the line <code><b>TODO</b> 2</code> in the file <code>index.php</code>. By default it is empty, and the blog software will complain about it!</li>
@@ -28,7 +28,7 @@
         <li>You can add your name to the feed inside the <code>managingEditor</code> tag in the file <code>index.xml</code>.</li>
         <li>Actually, you only need these 3 files to run the blog: <code>index.php</code>, <code>index.xml</code>, and <code>tohtml5.xsl</code>. You can remove the rest.</li>
     </ol>
-    <h2>In web browser</h2>
+    <h3>In web browser</h3>
     <p>Click the following link and enter the password from the step 1 in the previous section and press the <code>OK</code> button. The bookmarklet code will be opened in a new tab or page; bookmark the current page and change the bookmark address to the bookmarklet code created.</p>
     <p>If you entered a wrong password, the blog software will complain about it. Repeat the steps in this section and enter the correct password, replacing the bookmark address afterwards.</p>
     <a href="javascript:alert('Start configuration...')">Create bookmarklet</a>
