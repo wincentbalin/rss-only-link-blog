@@ -13,6 +13,9 @@
         <xsl:attribute name="title">RSS 2.0</xsl:attribute>
         <xsl:attribute name="href">index.xml</xsl:attribute>
     </link>
+    <style>
+.date { color: lightgray }
+    </style>
 </head>
 <body>
     <h1><xsl:value-of select="title/text()"/></h1>
@@ -62,7 +65,7 @@
 <xsl:template match="pubDate">
     <xsl:variable name="monthName"><xsl:value-of select="substring(text(), 9, 3)"/></xsl:variable>
     <span>
-        <xsl:attribute name="style">color: lightgray</xsl:attribute>
+        <xsl:attribute name="class">date</xsl:attribute>
         <xsl:value-of select="substring(text(), 13, 4)"/>
         <xsl:text>-</xsl:text>
         <xsl:choose>
