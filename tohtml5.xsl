@@ -48,6 +48,7 @@
             <xsl:value-of select="substring(pubDate/text(), 24, 2)"/>
         </xsl:attribute>
         <xsl:apply-templates select="pubDate"/>
+        <xsl:text> </xsl:text>
         <xsl:value-of select="title/text()"/>
         <xsl:text> </xsl:text>
         <a>
