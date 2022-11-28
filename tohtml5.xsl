@@ -12,6 +12,8 @@
     <title><xsl:value-of select="title/text()"/></title>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="index.xml"/>
     <style>
+body { font-family: "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif }
+a { color: #ac2734; text-decoration: underline }
 .date { color: lightgray }
 hr { background-color: lightgray; height: 1px; border: 0 }
     </style>
