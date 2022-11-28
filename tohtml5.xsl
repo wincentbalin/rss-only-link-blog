@@ -60,7 +60,8 @@
 
 <xsl:template match="pubDate">
     <xsl:variable name="monthName"><xsl:value-of select="substring(text(), 9, 3)"/></xsl:variable>
-    <xsl:variable name="date-with-hours-and-minute">
+    <span>
+        <xsl:attribute name="style">color: lightgray</xsl:attribute>
         <xsl:value-of select="substring(text(), 13, 4)"/>
         <xsl:text>-</xsl:text>
         <xsl:choose>
@@ -79,16 +80,7 @@
         </xsl:choose>
         <xsl:text>-</xsl:text>
         <xsl:value-of select="substring(text(), 6, 2)"/>
-        <xsl:text> </xsl:text>
-        <xsl:value-of select="substring(pubDate/text(), 18, 2)"/>
-        <xsl:text>:</xsl:text>
-        <xsl:value-of select="substring(pubDate/text(), 21, 2)"/>
-    </xsl:variable>
-    <time>
-        <xsl:attribute name="style">color: lightgray</xsl:attribute>
-        <xsl:attribute name="datetime"><xsl:copy-of select="$date-with-hours-and-minute"/></xsl:attribute>
-        <xsl:copy-of select="$date-with-hours-and-minute"/>
-    </time>
+    </span>
 </xsl:template>
 
 </xsl:stylesheet>
