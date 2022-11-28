@@ -10,12 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title><xsl:value-of select="title/text()"/></title>
-    <link>
-        <xsl:attribute name="rel">alternate</xsl:attribute>
-        <xsl:attribute name="type">application/rss+xml</xsl:attribute>
-        <xsl:attribute name="title">RSS</xsl:attribute>
-        <xsl:attribute name="href">index.xml</xsl:attribute>
-    </link>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="index.xml"/>
     <style>
 .date { color: lightgray }
 hr { background-color: lightgray; height: 1px; border: 0 }
