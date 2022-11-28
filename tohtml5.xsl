@@ -38,40 +38,48 @@ hr { background-color: lightgray; height: 1px; border: 0 }
     <a>
         <xsl:attribute name="href">javascript:(function() {
             var url = window.location.href;
-            /*if (/^http:/.test(url)) {
+            if (/^http:/.test(url)) {
                 alert('The page uses insecure connection!\nPlease use an address starting with https://');
                 return;
-            }*/
+            }
             var password = prompt('Please enter the password you entered into script:');
             if (password === null) {
                 return;
             }
-            var bookmarklet = [
+            var bookmarkletContents = [
                 'javascript:(function() {',
-                'var url = window.location.href;',
-                'var password = \' + password.replace('\'', '\\\'') + \';',
+                'var text = prompt(\'Enter the description:\');',
+                'if (text === null) {',
+                '    return;',
+                '}',
+                'var url = \'' + url.replace('\'', '\\\'') + '\';',
+                'var password = \'' + password.replace('\'', '\\\'') + '\';',
                 'function connectionError(link, text) {',
                 '    var retry = confirm(\'Connection error! Retry?\');',
+                '    if (retry) {',
+                '        addArticle(link, text);',
+                '    }',
+                '}',
+                'function addArticle(link, text) {',
+                '    /* Collect parameters */',
+                '    var scriptElementId = \'script-\' + Date.now();',
+                '    var timeoutId = setTimeout(connectionError, 5000, link, text);',
+                '    /* Add script element */',
+                '    var script = document.createElement(\'script\');',
+                '    script.id = scriptElementId;',
+                '    script.src = url + \'?p=\' + encodeURIComponent(password) + \'&amp;l=\' + encodeURIComponent(link) + \'&amp;t=\' + encodeURIComponent(text) + \'&amp;s=\' + encodeURIComponent(scriptElementId) + \'&amp;o=\' + encodeURIComponent(timeoutId);',
+                '    document.body.appendChild(script);',
+                '}',
+                'addArticle(url, text);',
+                '})();'
             ];
-    
-        
-        if (retry) {
-            addArticle(link, text);
-        }
-    }
-    function addArticle(link, text) {
-        // Collect parameters
-        var scriptElementId = 'script-' + Date.now();
-        var timeoutId = setTimeout(connectionError, 5000, link, text);
-        // Add script element
-        var script = document.createElement('script');
-        script.id = scriptElementId;
-        script.src = url + '?p=' + encodeURIComponent(password) + '&l=' + encodeURIComponent(link) + '&t=' + encodeURIComponent(text) + '&s=' + encodeURIComponent(scriptElementId) + '&o=' + encodeURIComponent(timeoutId);
-        document.body.appendChild(script);
-    }
-    addArticle('https://www.facebook.com', 'Facebook website aüöß #top');
-})();
-            alert('Start configuration... ' + bookmarklet.join('\n'));
+            var container = document.createElement('p');
+            container.textContent = 'Bookmarklet: ';
+            document.body.appendChild(container);
+            var bookmarklet = document.createElement('a');
+            bookmarklet.href = bookmarkletContents.join('\n');
+            bookmarklet.textContent = 'Describe page in blog';
+            container.appendChild(bookmarklet);
         })();
         </xsl:attribute>
         Create bookmarklet
