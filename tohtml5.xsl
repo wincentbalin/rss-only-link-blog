@@ -41,7 +41,7 @@
             <xsl:value-of select="substring(pubDate/text(), 21, 2)"/>
             <xsl:value-of select="substring(pubDate/text(), 24, 2)"/>
         </xsl:attribute>
-        <xsl:value-of select="description/text()"/>
+        <xsl:value-of select="title/text()"/>
         <xsl:text> </xsl:text>
         <a>
             <xsl:attribute name="href"><xsl:value-of select="link/text()"/></xsl:attribute>
