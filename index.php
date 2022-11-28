@@ -70,7 +70,7 @@ function jsonp_ok()
 (function() {
     var element = document.createElement('div');
     element.textContent = ':-)';
-    element.style.position = 'absolute';
+    element.style.position = 'fixed';
     element.style.top = 0;
     element.style.left = 0;
     element.style.width = '100%';
