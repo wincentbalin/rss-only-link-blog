@@ -13,11 +13,11 @@ function jsonp_reply($source_code)
 
 function jsonp_cleanup()
 {
-    $script_tag_id = $_GET['s'];
+    $script_element_id = $_GET['s'];
     $timeout_id = $_GET['o'];
     $javascript = <<<EOT
 (function() {
-    var scriptElement = document.getElementById('$script_tag_id');
+    var scriptElement = document.getElementById('$script_element_id');
     scriptElement.parentElement.removeChild(scriptElement);
     clearTimeout($timeout_id);
 })();
@@ -98,9 +98,9 @@ function requested_add_new_article()
     $has_password = parameter_present_and_not_empty('p');
     $has_text = parameter_present_and_not_empty('t');
     $has_link = parameter_present_and_not_empty('l');
-    $has_script_tag_id = parameter_present_and_not_empty('s');
+    $has_script_element_id = parameter_present_and_not_empty('s');
     $has_timeout_id = parameter_present_and_not_empty('o');
-    return $has_password && $has_text && $has_link && $has_script_tag_id && $has_timeout_id;
+    return $has_password && $has_text && $has_link && $has_script_element_id && $has_timeout_id;
 }
 
 function update_channel($in_file, $out_file, &$date, &$line_after_item)

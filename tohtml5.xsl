@@ -35,8 +35,47 @@ hr { background-color: lightgray; height: 1px; border: 0 }
     <h3>In web browser</h3>
     <p>Click the following link and enter the password from the step 1 in the previous section and press the <code>OK</code> button. The bookmarklet code will be opened in a new tab or page; bookmark the current page and change the bookmark address to the bookmarklet code created.</p>
     <p>If you entered a wrong password, the blog software will complain about it. Repeat the steps in this section and enter the correct password, replacing the bookmark address afterwards.</p>
-    <a href="javascript:
-alert('Start configuration...')">Create bookmarklet</a>
+    <a>
+        <xsl:attribute name="href">javascript:(function() {
+            var url = window.location.href;
+            /*if (/^http:/.test(url)) {
+                alert('The page uses insecure connection!\nPlease use an address starting with https://');
+                return;
+            }*/
+            var password = prompt('Please enter the password you entered into script:');
+            if (password === null) {
+                return;
+            }
+            var bookmarklet = [
+                'javascript:(function() {',
+                'var url = window.location.href;',
+                'var password = \' + password.replace('\'', '\\\'') + \';',
+                'function connectionError(link, text) {',
+                '    var retry = confirm(\'Connection error! Retry?\');',
+            ];
+    
+        
+        if (retry) {
+            addArticle(link, text);
+        }
+    }
+    function addArticle(link, text) {
+        // Collect parameters
+        var scriptElementId = 'script-' + Date.now();
+        var timeoutId = setTimeout(connectionError, 5000, link, text);
+        // Add script element
+        var script = document.createElement('script');
+        script.id = scriptElementId;
+        script.src = url + '?p=' + encodeURIComponent(password) + '&l=' + encodeURIComponent(link) + '&t=' + encodeURIComponent(text) + '&s=' + encodeURIComponent(scriptElementId) + '&o=' + encodeURIComponent(timeoutId);
+        document.body.appendChild(script);
+    }
+    addArticle('https://www.facebook.com', 'Facebook website aüöß #top');
+})();
+            alert('Start configuration... ' + bookmarklet.join('\n'));
+        })();
+        </xsl:attribute>
+        Create bookmarklet
+    </a>
 </body>
 </html>
 </xsl:template>
