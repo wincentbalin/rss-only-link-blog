@@ -70,7 +70,7 @@ hr { background-color: lightgray; height: 1px; border: 0 }
                 '    script.src = url + \'?p=\' + encodeURIComponent(password) + \'&amp;l=\' + encodeURIComponent(link) + \'&amp;t=\' + encodeURIComponent(text) + \'&amp;s=\' + encodeURIComponent(scriptElementId) + \'&amp;o=\' + encodeURIComponent(timeoutId);',
                 '    document.body.appendChild(script);',
                 '}',
-                'addArticle(url, text);',
+                'addArticle(window.location.href, text);',
                 '})();'
             ];
             var container = document.createElement('p');
