@@ -1,91 +1,6 @@
 <?php
 $password = '';
 
-function jsonp_reply($source_code)
-{
-    header('Content-Type: text/javascript');
-    header('Content-Length: ' . strlen($source_code));
-    echo $source_code;
-}
-
-function jsonp_cleanup()
-{
-    $script_element_id = $_GET['s'];
-    $timeout_id = $_GET['o'];
-    $javascript = <<<EOT
-(function() {
-    var scriptElement = document.getElementById('$script_element_id');
-    scriptElement.parentElement.removeChild(scriptElement);
-    clearTimeout($timeout_id);
-})();
-EOT;
-    jsonp_reply($javascript);
-}
-
-function jsonp_retry($error)
-{
-    jsonp_cleanup();
-    $https = array_key_exists('HTTPS', $_SERVER) && $_SERVER['HTTPS'];
-    $server_port = $https && $_SERVER['SERVER_PORT'] != '443' || !$https && $_SERVER['SERVER_PORT'] != '80' ? ':' . $_SERVER['SERVER_PORT'] : '';
-    $url = ($https ? 'https' : 'http') . '://' . $_SERVER['SERVER_NAME'] . $server_port . $_SERVER['REQUEST_URI'];
-    $password = $_GET['p'];
-    $text = $_GET['t'];
-    $link = $_GET['l'];
-    $javascript = <<<EOT
-(function() {
-    var url = '$url';
-    var password = '$password';
-    function connectionError(link, text) {
-        var retry = confirm('Connection error! Retry?');
-        if (retry) {
-            addArticle(link, text);
-        }
-    }
-    function addArticle(link, text) {
-        // Collect parameters
-        var scriptElementId = 'script-' + Date.now();
-        var timeoutId = setTimeout(connectionError, 5000, link, text);
-        // Add script element
-        var script = document.createElement('script');
-        script.id = scriptElementId;
-        script.src = url + '?p=' + encodeURIComponent(password) + '&l=' + encodeURIComponent(link) + '&t=' + encodeURIComponent(text) + '&s=' + encodeURIComponent(scriptElementId) + '&o=' + encodeURIComponent(timeoutId);
-        document.body.appendChild(script);
-    }
-    var retry = confirm('$error Retry?');
-    if (retry) {
-        addArticle('$link', '$text');
-    }
-})();
-EOT;
-    echo $javascript;
-}
-
-function jsonp_ok()
-{
-    jsonp_cleanup();
-    $javascript = <<<EOT
-(function() {
-    var element = document.createElement('div');
-    element.textContent = ':-)';
-    element.style.position = 'fixed';
-    element.style.top = 0;
-    element.style.left = 0;
-    element.style.width = '100%';
-    element.style.backgroundColor = 'lightgray';
-    element.style.zIndex = 50000;
-    element.style.opacity = 0.6;
-    element.style.textAlign = 'center';
-    element.style.fontFamily = 'sans-serif';
-    element.style.fontSize = '5ex';
-    document.body.appendChild(element);
-    setTimeout(function() {
-        element.parentElement.removeChild(element);
-    }, 2000);
-})();
-EOT;
-    echo $javascript;
-}
-
 function parameter_present_and_not_empty($p)
 {
     return array_key_exists($p, $_GET) && !empty($_GET[$p]);
@@ -96,9 +11,7 @@ function requested_add_new_article()
     $has_password = parameter_present_and_not_empty('p');
     $has_text = parameter_present_and_not_empty('t');
     $has_link = parameter_present_and_not_empty('l');
-    $has_script_element_id = parameter_present_and_not_empty('s');
-    $has_timeout_id = parameter_present_and_not_empty('o');
-    return $has_password && $has_text && $has_link && $has_script_element_id && $has_timeout_id;
+    return $has_password && $has_text && $has_link;
 }
 
 function update_channel($in_file, $out_file, &$date, &$line_after_item)
@@ -146,12 +59,12 @@ function add_article($filename, $tmp_filename)
     global $password;
     if ($password === '')
     {
-        jsonp_retry('You did not set the password on server!');
+        http_response_code(400);
         exit;
     }
     if ($password !== $_GET['p'])
     {
-        jsonp_retry('Wrong password!');
+        http_response_code(401);
         exit;
     }
 
@@ -161,7 +74,7 @@ function add_article($filename, $tmp_filename)
     $tmp_file = fopen($tmp_filename, 'w');
     if ($tmp_file === false)
     {
-        jsonp_retry('Cannot write on server, possibly wrong permissions!');
+        http_response_code(403);
         exit;
     }
     $line_after_item = '';
@@ -171,7 +84,7 @@ function add_article($filename, $tmp_filename)
     fclose($index_file);
     fclose($tmp_file);
     rename($tmp_filename, $filename);
-    jsonp_ok();
+    http_response_code(200);
 }
 
 function output_index($filename, $headers_only = false)
