@@ -1,6 +1,13 @@
 <?php
 $password = '';
 
+function echo_reply($contents, $content_type)
+{
+    header('Content-Type: ' . $content_type);
+    header('Content-Length: ' . strlen($contents));
+    echo $contents;
+}
+
 function parameter_present_and_not_empty($p)
 {
     return array_key_exists($p, $_GET) && !empty($_GET[$p]);
@@ -59,12 +66,12 @@ function add_article($filename, $tmp_filename)
     global $password;
     if ($password === '')
     {
-        http_response_code(400);
+        echo_reply('You did not set the password on server!', 'text/plain');
         exit;
     }
     if ($password !== $_GET['p'])
     {
-        http_response_code(401);
+        echo_reply('Wrong password!', 'text/plain');
         exit;
     }
 
@@ -74,7 +81,7 @@ function add_article($filename, $tmp_filename)
     $tmp_file = fopen($tmp_filename, 'w');
     if ($tmp_file === false)
     {
-        http_response_code(403);
+        echo_reply('Cannot write on server, possibly wrong permissions!', 'text/plain');
         exit;
     }
     $line_after_item = '';
@@ -84,7 +91,13 @@ function add_article($filename, $tmp_filename)
     fclose($index_file);
     fclose($tmp_file);
     rename($tmp_filename, $filename);
-    http_response_code(200);
+    $reply_ok = <<<EOT
+<!doctype html>
+<title>:-)</title>
+<div style="position: absolute; top: 0; left: 0; width: 100%; background-color: lightgray; z-index: 50000; opacity: 0.6; text-align: center; font-family: sans-serif; font-size: 5ex">:-)</div>
+<script>setTimeout(function() { window.history.back(); }, 1000);</script>
+EOT;
+    echo_reply($reply_ok, 'text/html');
 }
 
 function output_index($filename, $headers_only = false)
