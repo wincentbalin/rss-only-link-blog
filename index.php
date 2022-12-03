@@ -50,7 +50,9 @@ function add_item($out_file, &$date)
     $link = $_GET['l'];
     fputs($out_file, '<item>' . PHP_EOL);
     fputs($out_file, '<title>' . htmlspecialchars($text, ENT_XML1, 'utf-8') . '</title>' . PHP_EOL);
-    fputs($out_file, '<link>' . htmlentities($link, ENT_XML1) . '</link>' . PHP_EOL);
+    $encoded_link = htmlentities($link, ENT_XML1);
+    fputs($out_file, '<link>' . $encoded_link . '</link>' . PHP_EOL);
+    fputs($out_file, '<guid>' . $encoded_link . '</guid>' . PHP_EOL);
     fputs($out_file, '<pubDate>' . $date . '</pubDate>' . PHP_EOL);
     fputs($out_file, '</item>' . PHP_EOL);
 }
