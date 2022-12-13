@@ -1,6 +1,6 @@
 # RSS-only (link)-blog
 
-This is a link blog built with RSS and JavaScript. The active parts are implemented as Javascript programs embedded into links in the articles and on server as a small PHP script.
+This is a link blog built with RSS, XSLT, and Javascript. The active parts are implemented as Javascript programs embedded into links in the articles and on server as a small PHP script.
 
 ## Installation
 
