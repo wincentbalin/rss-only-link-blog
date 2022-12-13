@@ -96,7 +96,7 @@ function add_article($filename, $tmp_filename)
     $reply_ok = <<<EOT
 <!doctype html>
 <title>:-)</title>
-<div style="position: absolute; top: 0; left: 0; width: 100%; background-color: lightgray; z-index: 50000; opacity: 0.6; text-align: center; font-family: sans-serif; font-size: 5ex">:-)</div>
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; font-family: sans-serif; font-size: 10ex">:-)</div>
 <script>setTimeout(function() { window.history.back(); }, 1000);</script>
 EOT;
     echo_reply($reply_ok, 'text/html');
