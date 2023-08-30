@@ -48,7 +48,7 @@ hr { background-color: lightgray; height: 1px; border: 0 }
             }
             var bookmarkletContents = [
                 'javascript:(function() {',
-                '    var text = prompt(\'Enter the description:\');',
+                '    var text = prompt(\'Enter the description:\', document.querySelector(\'title\').textContent);',
                 '    if (text === null) {',
                 '        return;',
                 '    }',
